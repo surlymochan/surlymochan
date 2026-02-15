@@ -1,21 +1,17 @@
 <div align="center">
 
 ```
-    ╔══════════════════════════════════════════════════════════╗
-    ║  ███████╗██╗   ██╗██████╗ ██╗  ██╗   ██╗               ║
-    ║  ██╔════╝██║   ██║██╔══██╗██║  ╚██╗ ██╔╝               ║
-    ║  ███████╗██║   ██║██████╔╝██║   ╚████╔╝                ║
-    ║  ╚════██║██║   ██║██╔══██╗██║    ╚██╔╝                 ║
-    ║  ███████║╚██████╔╝██║  ██║███████╗██║                  ║
-    ║  ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝                  ║
-    ╚══════════════════════════════════════════════════════════╝
+ ██████╗ ██╗   ██╗██████╗ ██╗  ██╗   ██╗              ██████╗ ███████╗ ██████╗ 
+██╔════╝ ██║   ██║██╔══██╗██║  ╚██╗ ██╔╝             ██╔══██╗██╔════╝██╔════╝ 
+██║  ███╗██║   ██║██████╔╝██║   ╚████╔╝              ██████╔╝█████╗  ██║  ███╗
+██║   ██║██║   ██║██╔══██╗██║    ╚██╔╝               ██╔══██╗██╔══╝  ██║   ██║
+╚██████╔╝╚██████╔╝██║  ██║███████╗██║                ██║  ██║███████╗╚██████╔╝
+ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝                ╚═╝  ╚═╝╚══════╝ ╚═════╝ 
 ```
-
-<img src="https://avatars.githubusercontent.com/u/209239467?v=4" width="150" height="150" style="border-radius: 50%; border: 3px solid #00ff00; box-shadow: 0 0 20px #00ff00;">
 
 # `> whoami`
 
-**`surlymochan`** — *A carbon-based entity obsessed with AI & automation*
+**surlymochan** — *A carbon-based entity obsessed with AI & automation*
 
 [![AI Obsessed](https://img.shields.io/badge/-AI%20OBSESSED-00ff00?style=for-the-badge&logo=openai&logoColor=black)](https://github.com/surlymochan)
 [![Apache](https://img.shields.io/badge/-Apache-ff6d00?style=for-the-badge&logo=apache&logoColor=white)](https://github.com/apache)
@@ -27,8 +23,6 @@ ai automation distributed-systems llm cloud-native
 ```
 
 ---
-
-</div>
 
 ## 🔥 `cat /proc/self/projects`
 
@@ -77,21 +71,21 @@ $ neofetch --skills
 
        _,met$$$$$gg.           surlymochan@github
     ,g$$$$$$$$$$$$$$$P.        ------------------
-  ,g$$P"     """Y$$.".         OS: AI & Automation
- ,$$P'              `$$$.      Shell: zsh (oh-my-zsh)
-',$$P       ,ggs.     `$$b:    Editor: nvim / cursor
+  ,g$$P"     """Y$$.".        OS: AI & Automation
+ ,$$P'              `$$$.     Shell: zsh (oh-my-zsh)
+',$$P       ,ggs.     `$$b:  Editor: nvim / cursor
 `d$$'     ,$P"'   .    $$$    Languages: Go, Python, Shell, TypeScript
  $$P      d$'     ,    $$P    Interests: LLM, RAG, Agents, Cloud-Native
- $$:      $$.   -    ,d$$'    Current Status: Always learning
+ $$:      $$.   -    ,$$'    Current Status: Always learning
  $$;      Y$b._   _,d$P'      
  Y$$.    `.`"Y$$$$P"'         
  `$$b      "-.__              
-  `Y$$                        
-   `Y$$.                      
-     `$$b.                    
-       `Y$$b.                 
-          `"Y$b._             
-              `"""            
+   `Y$$                        
+    `$$.                      
+      `$$b.                    
+        `Y$$b.                 
+           `"Y$b._             
+               `"""            
 ```
 
 ---
@@ -104,9 +98,10 @@ $ neofetch --skills
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-<div align="center">
-
-[![GitHub Followers](https://img.shields.io/github/followers/surlymochan?style=social)](https://github.com/surlymochan?tab=followers)
+| Channel | Link |
+|---------|------|
+| GitHub | [surlymochan](https://github.com/surlymochan) |
+| Followers | ![Followers](https://img.shields.io/github/followers/surlymochan?style=flat-square) |
 
 ```
 [me@github ~]$ finger surlymochan
@@ -117,8 +112,6 @@ No Plan.
 
 [me@github ~]$ 
 ```
-
-</div>
 
 ---
 
@@ -138,17 +131,13 @@ No Plan.
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-<div align="center">
-
 ```
-    ⚡ Powered by Curiosity ⚡
-    🔧 Built with Passion 🔧
-    🚀 Deployed with Confidence 🚀
+⚡ Powered by Curiosity ⚡
+🔧 Built with Passion 🔧
+🚀 Deployed with Confidence 🚀
 ```
 
 ![Profile Views](https://komarev.com/ghpvc/?username=surlymochan&color=00ff00&style=flat-square)
-
-</div>
 
 ---
 
@@ -163,3 +152,5 @@ No Plan.
 ```
 
 </details>
+
+</div>
