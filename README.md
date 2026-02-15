@@ -9,11 +9,9 @@
  ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚══════╝
 ```
 
-# surlymochan
+# AI & Automation Enthusiast
 
-*AI & Automation Enthusiast*
-
-**surlymochan** — *A carbon-based entity obsessed with AI & automation*
+*A carbon-based entity obsessed with AI & automation*
 
 [![AI Obsessed](https://img.shields.io/badge/-AI%20OBSESSED-00ff00?style=for-the-badge&logo=openai&logoColor=black)](https://github.com/surlymochan)
 [![Apache](https://img.shields.io/badge/-Apache-ff6d00?style=for-the-badge&logo=apache&logoColor=white)](https://github.com/apache)
@@ -48,30 +46,12 @@ features:
 
 ---
 
-## 🧠 `cat /etc/os/research`
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  RESEARCH & EXPERIMENTS (FORKS)                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-| Repository | Language | Description |
-|------------|----------|-------------|
-| [eino](https://github.com/surlymochan/eino) | Go | The ultimate LLM/AI application development framework in Golang |
-| [eino-examples](https://github.com/surlymochan/eino-examples) | Go | Examples and demonstrations for using the Eino framework |
-| [skywalking-satellite](https://github.com/surlymochan/skywalking-satellite) | Go | The Sidecar Project of Apache SkyWalking |
-| [langchain](https://github.com/surlymochan/langchain) | Jupyter Notebook | 🦜🔗 Build context-aware reasoning applications |
-| [Langchain-Chatchat](https://github.com/surlymochan/Langchain-Chatchat) | TypeScript | Langchain-Chatchat RAG与Agent应用 |
-
----
-
 ## 🛠️ `ls /usr/bin/skills`
 
 ```bash
 $ neofetch --skills
 
-       _,met$$$$$gg.           surlymochan@github
+       _,met$$$$$gg.           developer@github
     ,g$$$$$$$$$$$$$$$P.        ------------------
   ,g$$P"     """Y$$.".        OS: AI & Automation
  ,$$P'              `$$$.     Shell: zsh (oh-my-zsh)
@@ -115,33 +95,7 @@ No Plan.
 [me@github ~]$ 
 ```
 
----
 
-## 🎯 `cat > /dev/motd << 'EOF'`
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│  "The best time to plant a tree was 20 years ago.                           │
-│   The second best time is now."                                             │
-│                                                     — Chinese Proverb       │
-│                                                                             │
-│  "The best time to learn AI was 5 years ago.                                │
-│   The second best time is now."                                             │
-│                                                     — surlymochan           │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-```
-⚡ Powered by Curiosity ⚡
-🔧 Built with Passion 🔧
-🚀 Deployed with Confidence 🚀
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=surlymochan&color=00ff00&style=flat-square)
-
----
 
 <details>
 <summary>🧪 <code>cat /dev/random/quote</code> (Click to expand)</summary>
