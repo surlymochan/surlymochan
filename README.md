@@ -32,6 +32,7 @@
 |:-:|------|----------|----------|
 | 📋 | [aispec](https://github.com/surlymochan/aispec) | 工作区 AI 规范与约定、CLI（init/verify） | spec 驱动、CONVENTIONS、模板与验收脚本 |
 | 🦾 | [openclaw-cn](https://github.com/surlymochan/openclaw-cn) | 国内版 OpenClaw 一键部署 | qwen3-max、复合搜索（百度+高德）、飞书等 |
+| 🛒 | [skills-market](https://github.com/surlymochan/skills-market) | 三方 Agent Skills 综合索引 | 源级索引、list/search CLI、防膨胀设计、OpenClaw skill 入口 |
 
 ---
 
