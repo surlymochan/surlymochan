@@ -32,6 +32,14 @@ ai automation distributed-systems llm cloud-native
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
+### Public 项目列表（项目地址 · 简要说明 · 核心特色）
+
+| 项目地址 | 简要说明 | 核心特色 |
+|----------|----------|----------|
+| [surlymochan/aispec](https://github.com/surlymochan/aispec) | 工作区 AI 规范与约定、CLI（init/verify） | spec 驱动、CONVENTIONS、模板与验收脚本 |
+| [surlymochan/openclaw-cn](https://github.com/surlymochan/openclaw-cn) | 国内版 OpenClaw 一键部署 | qwen3-max、复合搜索（百度+高德）、飞书等 |
+| [surlymochan/openclaw-docker-cn](https://github.com/surlymochan/openclaw-docker-cn) | OpenClaw Docker 一键部署 | 一条命令部署、Token 同步、国内优化 |
+
 ### 📦 [openclaw-docker-cn](https://github.com/surlymochan/openclaw-docker-cn)
 ```yaml
 lang: Shell
