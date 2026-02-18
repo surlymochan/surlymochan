@@ -19,9 +19,9 @@
 
 <div align="left">
 
-1. [aispec](https://github.com/surlymochan/aispec): Workspace AI conventions and CLI (init/verify); spec-driven workflows and check scripts.
-2. [openclaw-cn](https://github.com/surlymochan/openclaw-cn): One-click OpenClaw for CN with qwen3-max, composite search (Baidu+Gaode), Feishu.
-3. [skills-market](https://github.com/surlymochan/skills-market): Third-party Agent Skills index: source-level list/search CLI, anti-bloat design, OpenClaw skill entry.
+1. 📋 [aispec](https://github.com/surlymochan/aispec): Workspace AI conventions and CLI (init/verify); spec-driven workflows and check scripts.
+2. 🦾 [openclaw-cn](https://github.com/surlymochan/openclaw-cn): One-click OpenClaw for CN with qwen3-max, composite search (Baidu+Gaode), Feishu.
+3. 🛒 [skills-market](https://github.com/surlymochan/skills-market): Third-party Agent Skills index: source-level list/search CLI, anti-bloat design, OpenClaw skill entry.
 
 </div>
 
