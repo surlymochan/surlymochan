@@ -22,7 +22,8 @@ These days I split my time between observability and AI agent engineering: traci
 
 ### Building
 
-- [openflow](https://github.com/surlymochan/openflow): an evidence-gated workflow runtime for AI coding agents
+- [openflow](https://github.com/surlymochan/openflow): an evidence-gated workflow runtime for AI coding agents (`npm i -g @surlymochan/openflow`)
+- [openswarm](https://github.com/surlymochan/openswarm): a quota-aware dispatcher where Claude plans and Codex, OpenCode Go or DeepSeek write the code, each task in an isolated git worktree with a hard budget
 - [codexclaw](https://github.com/surlymochan/codexclaw): run Codex CLI from Feishu/Lark chats, with memory and scheduled tasks (`npm i -g @surlymochan/codexclaw`)
 
 ### Open source contributions
