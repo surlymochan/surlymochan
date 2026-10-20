@@ -1,50 +1,36 @@
-```text
-+------------------------------------------------------------------+
-|                                                                  |
-|    ##     ##     ###     ########   ##     ##  ####   ######     |
-|     ##   ##     ## ##    ##     ##  ##     ##   ##   ##    ##    |
-|      ## ##     ##   ##   ##     ##  ##     ##   ##   ##          |
-|       ###     ##     ##  ########   ##     ##   ##    ######     |
-|      ## ##    #########  ##   ##     ##   ##    ##         ##    |
-|     ##   ##   ##     ##  ##    ##     ## ##     ##   ##    ##    |
-|    ##     ##  ##     ##  ##     ##     ###     ####   ######     |
-|                                                                  |
-|          observability  /  go  /  ai agent engineering           |
-|                                                                  |
-+------------------------------------------------------------------+
-```
+# Hi, I'm Nick 👋
 
-### Nick (Chao Chen)
+**AI agents · Harness engineering · Reliable loops & graphs**
 
-Apache SkyWalking committer — [ASF infrastructure member](https://github.com/orgs/apache/people) — working on [skywalking-rover](https://github.com/apache/skywalking-rover) (eBPF-based profiling and network observability), [skywalking-satellite](https://github.com/apache/skywalking-satellite) (the telemetry collector) and the Go side of the ecosystem.
+I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
-These days I split my time between observability and AI agent engineering: tracing, dependency hygiene, and agents that hold up outside a demo. Most of my code is Go, with TypeScript and Python where the tooling lives.
+## Start Here
 
-### Building
+- 🔁 **[OpenFlow](https://github.com/surlymochan/openflow)** — executable delivery workflows for AI coding agents, with YAML phases and evidence gates. [Quickstart](https://github.com/surlymochan/openflow#3-minute-start) · [npm](https://www.npmjs.com/package/@surlymochan/openflow)
+- 🐝 **[OpenSwarm](https://github.com/surlymochan/openswarm)** — quota-aware dispatch across coding agents, with isolated git worktrees, time budgets, and host-side verification. [Getting started](https://github.com/surlymochan/openswarm#quickstart)
 
-- [openflow](https://github.com/surlymochan/openflow): an evidence-gated workflow runtime for AI coding agents (`npm i -g @surlymochan/openflow`)
-- [openswarm](https://github.com/surlymochan/openswarm): a quota-aware dispatcher where Claude plans and Codex, OpenCode Go or DeepSeek write the code, each task in an isolated git worktree with a hard budget
-- [codexclaw](https://github.com/surlymochan/codexclaw): run Codex CLI from Feishu/Lark chats, with memory and scheduled tasks (`npm i -g @surlymochan/codexclaw`)
+## Current Projects
 
-### Now
+### Harnesses & Delivery Workflows
 
-- **OpenFlow** — evidence-gated delivery workflows for AI coding agents: red/green TDD proof gates checked by code, not by vibes. [3-minute start](https://github.com/surlymochan/openflow#3-minute-start) · [npm](https://www.npmjs.com/package/@surlymochan/openflow)
-- **openswarm** — Claude plans, Codex / OpenCode Go / DeepSeek execute: quota-aware dispatch, one isolated git worktree per task, hard budgets. [repo](https://github.com/surlymochan/openswarm)
-- **Apache SkyWalking** — [rover](https://github.com/apache/skywalking-rover) (eBPF profiling) and [satellite](https://github.com/apache/skywalking-satellite) (telemetry collector), plus the Go side of the ecosystem.
+- **[OpenFlow](https://github.com/surlymochan/openflow)** turns delivery phases and acceptance evidence into an executable workflow. For developers who want to inspect how an agent's result was checked.
 
-### Why follow
+### Agent Execution & Orchestration
 
-I benchmark what I build and publish the raw results — including the runs where my own tool loses to the plain baseline. Method, scripts and per-run logs live in the repos, not in a blog post.
+- **[OpenSwarm](https://github.com/surlymochan/openswarm)** separates planning from execution and routes tasks across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
 
-- OpenFlow vs. superpowers on SWE-bench Verified → [results and caveats](https://github.com/surlymochan/openflow#benchmarks-openflow-vs-superpowers-2026-10-17)
-- Merged upstream pull requests → [list](https://github.com/surlymochan/surlymochan#open-source-contributions)
-- Releases and launch notes → [releases](https://github.com/surlymochan/surlymochan/releases) · [email](mailto:surlymo@apache.org)
+## Open Source
 
-### Upstream
+Recent merged contributions:
 
-I also fix things in the projects I depend on: [gstack](https://github.com/garrytan/gstack), [OpenSpec](https://github.com/Fission-AI/OpenSpec), [opencode](https://github.com/anomalyco/opencode), [openclaw](https://github.com/openclaw/openclaw), [superpowers](https://github.com/obra/superpowers), the [MCP SDKs](https://github.com/modelcontextprotocol), [hermes-agent](https://github.com/NousResearch/hermes-agent), [browser-use](https://github.com/browser-use/browser-use), [smolagents](https://github.com/huggingface/smolagents), [crewAI](https://github.com/crewAIInc/crewAI), [ragflow](https://github.com/infiniflow/ragflow), [llama_index](https://github.com/run-llama/llama_index).
+- **[OpenSpec](https://github.com/Fission-AI/OpenSpec/pull/2103)** — replaced a glob dependency to remove a vulnerable transitive dependency.
+- **[OpenClaw](https://github.com/openclaw/openclaw/pull/177871)** — preserved compatible reasoning in follow-up requests.
+- **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1412)** — corrected SSE field-value parsing.
 
-### Open source contributions
+Currently contributing fixes to **[OpenSpec](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[superpowers](https://github.com/obra/superpowers/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
+
+<details>
+<summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
 Merged upstream pull requests: **12** across **11** repositories.
@@ -110,26 +96,14 @@ Merged upstream pull requests: **12** across **11** repositories.
 <sub>Generated from the GitHub search API by [a daily workflow](https://github.com/surlymochan/surlymochan/blob/main/.github/workflows/update-readme.yml).</sub>
 <!-- CONTRIB:END -->
 
-Full lists: [merged PRs](https://github.com/pulls?q=is%3Apr+author%3Asurlymochan+is%3Amerged+-user%3Anibiru-labs+-user%3Asurlymochan) · [open PRs](https://github.com/pulls?q=is%3Apr+author%3Asurlymochan+is%3Aopen+-user%3Anibiru-labs+-user%3Asurlymochan) · [OSS Insight analysis](https://ossinsight.io/analyze/surlymochan)
+</details>
 
-### Activity
+## Experiments & Notes
 
-<a href="https://ossinsight.io/analyze/surlymochan">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=209239467&image_size=auto&color_scheme=dark">
-    <img alt="OSS Insight dashboard for surlymochan" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=209239467&image_size=auto&color_scheme=light" width="720">
-  </picture>
-</a>
+I publish benchmark methods and run records alongside my tools. Results are specific to the tasks, models, and configurations tested; small samples need careful interpretation.
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=surlymochan&show_icons=true&hide_rank=true&hide_border=true&theme=github_dark">
-    <img alt="GitHub stats for surlymochan" src="https://github-readme-stats.vercel.app/api?username=surlymochan&show_icons=true&hide_rank=true&hide_border=true&theme=default" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
-    <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" height="165">
-  </picture>
-</p>
+- [OpenFlow benchmarks](https://github.com/surlymochan/openflow#benchmarks-openflow-vs-superpowers-2026-10-17)
+- [OpenSwarm experiments](https://github.com/surlymochan/openswarm/tree/main/bench)
+- [Merged upstream PRs](https://github.com/pulls?q=is%3Apr+author%3Asurlymochan+is%3Amerged+-user%3Anibiru-labs+-user%3Asurlymochan)
 
-[surlymo@apache.org](mailto:surlymo@apache.org)
+More tools will appear here as their installation, documentation, and examples are ready for others to use.
