@@ -16,7 +16,7 @@
 
 ### Nick (Chao Chen)
 
-Apache SkyWalking committer since 2020, working on [skywalking-rover](https://github.com/apache/skywalking-rover) (eBPF-based profiling and network observability), [skywalking-satellite](https://github.com/apache/skywalking-satellite) (the telemetry collector) and the Go side of the ecosystem.
+Apache SkyWalking committer — [ASF infrastructure member](https://github.com/orgs/apache/people) — working on [skywalking-rover](https://github.com/apache/skywalking-rover) (eBPF-based profiling and network observability), [skywalking-satellite](https://github.com/apache/skywalking-satellite) (the telemetry collector) and the Go side of the ecosystem.
 
 These days I split my time between observability and AI agent engineering: tracing, dependency hygiene, and agents that hold up outside a demo. Most of my code is Go, with TypeScript and Python where the tooling lives.
 
@@ -25,6 +25,24 @@ These days I split my time between observability and AI agent engineering: traci
 - [openflow](https://github.com/surlymochan/openflow): an evidence-gated workflow runtime for AI coding agents (`npm i -g @surlymochan/openflow`)
 - [openswarm](https://github.com/surlymochan/openswarm): a quota-aware dispatcher where Claude plans and Codex, OpenCode Go or DeepSeek write the code, each task in an isolated git worktree with a hard budget
 - [codexclaw](https://github.com/surlymochan/codexclaw): run Codex CLI from Feishu/Lark chats, with memory and scheduled tasks (`npm i -g @surlymochan/codexclaw`)
+
+### Now
+
+- **OpenFlow** — evidence-gated delivery workflows for AI coding agents: red/green TDD proof gates checked by code, not by vibes. [3-minute start](https://github.com/surlymochan/openflow#3-minute-start) · [npm](https://www.npmjs.com/package/@surlymochan/openflow)
+- **openswarm** — Claude plans, Codex / OpenCode Go / DeepSeek execute: quota-aware dispatch, one isolated git worktree per task, hard budgets. [repo](https://github.com/surlymochan/openswarm)
+- **Apache SkyWalking** — [rover](https://github.com/apache/skywalking-rover) (eBPF profiling) and [satellite](https://github.com/apache/skywalking-satellite) (telemetry collector), plus the Go side of the ecosystem.
+
+### Why follow
+
+I benchmark what I build and publish the raw results — including the runs where my own tool loses to the plain baseline. Method, scripts and per-run logs live in the repos, not in a blog post.
+
+- OpenFlow vs. superpowers on SWE-bench Verified → [results and caveats](https://github.com/surlymochan/openflow#benchmarks-openflow-vs-superpowers-2026-10-17)
+- Merged upstream pull requests → [list](https://github.com/surlymochan/surlymochan#open-source-contributions)
+- Releases and launch notes → [releases](https://github.com/surlymochan/surlymochan/releases) · [email](mailto:surlymo@apache.org)
+
+### Upstream
+
+I also fix things in the projects I depend on: [gstack](https://github.com/garrytan/gstack), [OpenSpec](https://github.com/Fission-AI/OpenSpec), [opencode](https://github.com/anomalyco/opencode), [openclaw](https://github.com/openclaw/openclaw), [superpowers](https://github.com/obra/superpowers), the [MCP SDKs](https://github.com/modelcontextprotocol), [hermes-agent](https://github.com/NousResearch/hermes-agent), [browser-use](https://github.com/browser-use/browser-use), [smolagents](https://github.com/huggingface/smolagents), [crewAI](https://github.com/crewAIInc/crewAI), [ragflow](https://github.com/infiniflow/ragflow), [llama_index](https://github.com/run-llama/llama_index).
 
 ### Open source contributions
 
