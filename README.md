@@ -98,6 +98,15 @@ Merged upstream pull requests: **12** across **11** repositories.
 
 </details>
 
+## Contribution Streak
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
+    <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" height="165">
+  </picture>
+</p>
+
 ## Experiments & Notes
 
 I publish benchmark methods and run records alongside my tools. Results are specific to the tasks, models, and configurations tested; small samples need careful interpretation.
