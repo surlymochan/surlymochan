@@ -71,7 +71,7 @@ Merged upstream pull requests: **17** across **13** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (32)</summary>
+<summary>In review (35)</summary>
 
 - [ai-boost/awesome-harness-engineering#345](https://github.com/ai-boost/awesome-harness-engineering/pull/345) Add openflow to Verification & CI Integration
 - [ai-for-developers/awesome-ai-coding-tools#1006](https://github.com/ai-for-developers/awesome-ai-coding-tools/pull/1006) Add OpenFlow to Testing and QA
@@ -81,14 +81,17 @@ Merged upstream pull requests: **17** across **13** repositories.
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
+- [code-yeongyu/oh-my-openagent#11088](https://github.com/code-yeongyu/oh-my-openagent/pull/11088) feat(mcp): add Volcano Engine as a websearch provider
+- [code-yeongyu/oh-my-openagent#11087](https://github.com/code-yeongyu/oh-my-openagent/pull/11087) fix(omo-senpi): cover gateway-rules-extension in build-extension --check (#8263)
+- [code-yeongyu/oh-my-openagent#11085](https://github.com/code-yeongyu/oh-my-openagent/pull/11085) fix(omo-senpi): run the init-deep advisor on the first real prompt, not session_start
+- [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
+- [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
 - [crewAIInc/crewAI#8258](https://github.com/crewAIInc/crewAI/pull/8258) fix(schema): keep sibling keys of $ref nodes in resolve_refs
-- [cursor/plugins#707](https://github.com/cursor/plugins/pull/707) fix(pstack): make worktree-audit's LAST_CHAT work with GNU stat and date
 - [filipecalegario/awesome-vibe-coding#392](https://github.com/filipecalegario/awesome-vibe-coding/pull/392) Add OpenFlow
 - [huggingface/smolagents#3020](https://github.com/huggingface/smolagents/pull/3020) Only rewrite real final_answer assignments in fix_final_answer_code
 - [jamesmurdza/awesome-ai-devtools#1256](https://github.com/jamesmurdza/awesome-ai-devtools/pull/1256) Add OpenFlow to Configuration & Context Management
 - [modelcontextprotocol/typescript-sdk#3050](https://github.com/modelcontextprotocol/typescript-sdk/pull/3050) fix(core): expand RFC 6570 list and multi-variable expressions correctly
-- [nightly-labs/openbot#2827](https://github.com/nightly-labs/openbot/pull/2827) Fix shared-file links doing nothing in group chats and channels
 - [nightly-labs/openbot#2577](https://github.com/nightly-labs/openbot/pull/2577) Read inline triple-backtick code as text in Live Activities
 - [nightly-labs/openbot#2576](https://github.com/nightly-labs/openbot/pull/2576) Keep emoji whole when a Live Activity cuts a code span
 - [NousResearch/hermes-agent#141789](https://github.com/NousResearch/hermes-agent/pull/141789) fix(agent): retry disabled Anthropic fast mode at standard speed
@@ -104,7 +107,7 @@ Merged upstream pull requests: **17** across **13** repositories.
 - [openclaw/openclaw#176558](https://github.com/openclaw/openclaw/pull/176558) fix(irc): SecretRef IRC passwords fail validation and service-only NickServ overrides skip the inherited ref
 - [openclaw/openclaw#175933](https://github.com/openclaw/openclaw/pull/175933) docs(macos): explain the Bun local-network and Git prompts on first launch
 - [run-llama/llama_index#23603](https://github.com/run-llama/llama_index/pull/23603) fix(core): use matching embeddings in EmbeddingRecencyPostprocessor
-- [strands-agents/harness-sdk#5448](https://github.com/strands-agents/harness-sdk/pull/5448) feat(models): add Gemma 4 effort levels for Bedrock (py + ts harness, CLI)
+- [strands-agents/harness-sdk#5463](https://github.com/strands-agents/harness-sdk/pull/5463) fix(cli): mirror the 2026-10 model-catalog context windows in FALLBACK_CONTEXT_WINDOWS
 
 </details>
 
