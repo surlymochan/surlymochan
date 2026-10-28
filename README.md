@@ -6,10 +6,15 @@ I build tools for running coding agents, coordinating their work, and checking w
 
 ## Start Here
 
+- 🌐 **[Phanes](https://github.com/surlymochan/phanes)** — my current flagship: a distributed, heterogeneous, self-evolving agent network. One control plane for goals and acceptance, a unified pool of compute resources, and final acceptance that must cite independent verification — never a worker's self-report. Architecture passed an adversarial multi-model design review; building in stages.
 - 🔁 **[OpenFlow](https://github.com/surlymochan/openflow)** — executable delivery workflows for AI coding agents, with YAML phases and evidence gates. [Quickstart](https://github.com/surlymochan/openflow#3-minute-start) · [npm](https://www.npmjs.com/package/@surlymochan/openflow)
 - 🐝 **[OpenSwarm](https://github.com/surlymochan/openswarm)** — quota-aware dispatch across coding agents, with isolated git worktrees, time budgets, and host-side verification. [Getting started](https://github.com/surlymochan/openswarm#quickstart)
 
 ## Current Projects
+
+### The Unified Agent Network
+
+- **[Phanes](https://github.com/surlymochan/phanes)** is where OpenBot, OpenSwarm, and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
 
 ### Harnesses & Delivery Workflows
 
@@ -23,11 +28,12 @@ I build tools for running coding agents, coordinating their work, and checking w
 
 Recent merged contributions:
 
-- **[OpenSpec](https://github.com/Fission-AI/OpenSpec/pull/2103)** — replaced a glob dependency to remove a vulnerable transitive dependency.
+- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pull/11237)** — persisted Momus review verdicts next to the plan they reviewed.
+- **[OpenBot](https://github.com/nightly-labs/openbot/pull/2577)** — read inline triple-backtick code as text in Live Activities.
+- **[OpenSpec](https://github.com/Fission-AI/OpenSpec/pull/2120)** — named the configured schema in the new-change progress line.
 - **[OpenClaw](https://github.com/openclaw/openclaw/pull/177871)** — preserved compatible reasoning in follow-up requests.
-- **[MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk/pull/1412)** — corrected SSE field-value parsing.
 
-Currently contributing fixes to **[OpenSpec](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[superpowers](https://github.com/obra/superpowers/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
+Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
 
 <details>
 <summary>Contribution history & open pull requests</summary>
@@ -131,8 +137,30 @@ Merged upstream pull requests: **21** across **14** repositories.
 
 <p>
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github_dark">
+    <img alt="Contribution timeline for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github" width="830">
+  </picture>
+</p>
+
+<p>
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
     <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" height="165">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true&theme=github_dark">
+    <img alt="GitHub stats for surlymochan" src="https://github-readme-stats.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true" height="165">
+  </picture>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surlymochan&theme=github_dark">
+    <img alt="Contribution stats for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surlymochan&theme=github" height="165">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=surlymochan&layout=compact&hide_border=true&theme=github_dark">
+    <img alt="Top languages for surlymochan" src="https://github-readme-stats.vercel.app/api/top-langs/?username=surlymochan&layout=compact&hide_border=true" height="165">
   </picture>
 </p>
 
