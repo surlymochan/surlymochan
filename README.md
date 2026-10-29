@@ -183,8 +183,8 @@ Merged upstream pull requests: **21** across **14** repositories.
     <img alt="Most commit language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github" height="165">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=surlymochan&theme=github_dark">
-    <img alt="Repos per language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=surlymochan&theme=github" height="165">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github_dark">
+    <img alt="Productive time for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github" height="165">
   </picture>
 </p>
 
