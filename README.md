@@ -162,31 +162,40 @@ Merged upstream pull requests: **21** across **14** repositories.
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github_dark">
-    <img alt="Contribution timeline for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github" width="830">
+    <img alt="Contribution timeline for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github" width="100%">
   </picture>
 </p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
-    <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true&theme=github_dark">
-    <img alt="GitHub stats for surlymochan" src="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true" height="165">
-  </picture>
-</p>
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github_dark">
-    <img alt="Most commit language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github_dark">
-    <img alt="Productive time for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github" height="165">
-  </picture>
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
+        <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" width="100%">
+      </picture>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true&theme=github_dark">
+        <img alt="GitHub stats for surlymochan" src="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true" width="100%">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github_dark">
+        <img alt="Most commit language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github" width="100%">
+      </picture>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github_dark&utcOffset=8">
+        <img alt="Productive time for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github&utcOffset=8" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ## Experiments & Notes
 
