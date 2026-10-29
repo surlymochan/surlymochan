@@ -172,8 +172,8 @@ Merged upstream pull requests: **21** across **14** repositories.
     <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" height="165">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github_dark">
-    <img alt="Most commit language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github" height="165">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true&theme=github_dark">
+    <img alt="GitHub stats for surlymochan" src="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true" height="165">
   </picture>
 </p>
 
@@ -183,8 +183,8 @@ Merged upstream pull requests: **21** across **14** repositories.
     <img alt="Contribution stats for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surlymochan&theme=github" height="165">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=surlymochan&theme=github_dark">
-    <img alt="Repos per language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=surlymochan&theme=github" height="165">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github_dark">
+    <img alt="Most commit language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github" height="165">
   </picture>
 </p>
 
