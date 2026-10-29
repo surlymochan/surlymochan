@@ -1,5 +1,10 @@
 # Hi, I'm Nick 👋
 
+**Follow along:** I share what breaks (and what fixes it) putting AI agents into production — [**@surlymochan on X**](https://x.com/surlymochan) · [Contra](https://contra.com/chao_chen_p9d4xc5f)
+
+> ⭐ **If OpenFlow or OpenSwarm saves you time, a star is the best way to support the work — I'm pushing for 100 stars this month.**
+
+
 **AI agents · Harness engineering · Reliable loops & graphs**
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
