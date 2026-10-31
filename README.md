@@ -46,7 +46,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **25** across **15** repositories.
+Merged upstream pull requests: **27** across **15** repositories.
 
 **Apache SkyWalking**
 
@@ -62,6 +62,7 @@ Merged upstream pull requests: **25** across **15** repositories.
 
 **code-yeongyu/oh-my-openagent**
 
+- [oh-my-openagent#11826](https://github.com/code-yeongyu/oh-my-openagent/pull/11826) fix(memory-core): settle the relaunched cache before asserting on the store dir in cache-persist tests
 - [oh-my-openagent#11699](https://github.com/code-yeongyu/oh-my-openagent/pull/11699) fix(memory): let update_description add frontmatter to a note that has none
 - [oh-my-openagent#11698](https://github.com/code-yeongyu/oh-my-openagent/pull/11698) fix(omo-senpi): freeze the shared models.json parse and type it deeply readonly
 - [oh-my-openagent#11697](https://github.com/code-yeongyu/oh-my-openagent/pull/11697) fix(omo-senpi): pin competing pathspec switches off for side panel git diffs
@@ -83,6 +84,7 @@ Merged upstream pull requests: **25** across **15** repositories.
 
 **comet-ml/opik**
 
+- [opik#9278](https://github.com/comet-ml/opik/pull/9278) issue-8590 SDK fix: accept repeated identical JSON objects in TS LLM-judge parser
 - [opik#9271](https://github.com/comet-ml/opik/pull/9271) issue-8868 SDK fix: treat blank OPIK_API_KEY as unconfigured
 
 **infiniflow/ragflow**
@@ -114,7 +116,7 @@ Merged upstream pull requests: **25** across **15** repositories.
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
-- [code-yeongyu/oh-my-openagent#11826](https://github.com/code-yeongyu/oh-my-openagent/pull/11826) fix(memory-core): settle the relaunched cache before asserting on the store dir in cache-persist tests
+- [code-yeongyu/oh-my-openagent#11909](https://github.com/code-yeongyu/oh-my-openagent/pull/11909) feat(memory): name the parked-facts cause and run log in /doctor; report retry outcomes
 - [code-yeongyu/oh-my-openagent#11745](https://github.com/code-yeongyu/oh-my-openagent/pull/11745) fix(omo-opencode): session_list date filter uses metadata time.updated instead of reading every session (#10796)
 - [code-yeongyu/oh-my-openagent#11088](https://github.com/code-yeongyu/oh-my-openagent/pull/11088) feat(mcp): add Volcano Engine as a websearch provider
 - [code-yeongyu/oh-my-openagent#11087](https://github.com/code-yeongyu/oh-my-openagent/pull/11087) fix(omo-senpi): cover gateway-rules-extension in build-extension --check (#8263)
@@ -122,7 +124,7 @@ Merged upstream pull requests: **25** across **15** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
-- [comet-ml/opik#9278](https://github.com/comet-ml/opik/pull/9278) issue-8590 SDK fix: accept repeated identical JSON objects in TS LLM-judge parser
+- [comet-ml/opik#9320](https://github.com/comet-ml/opik/pull/9320) issue-9069 SDK fix: keep function calls and all text in streamed Gemini traces
 - [comet-ml/opik#9270](https://github.com/comet-ml/opik/pull/9270) NA SDK fix: aggregate Cohere streamed tool plan and tool calls
 - [crewAIInc/crewAI#8258](https://github.com/crewAIInc/crewAI/pull/8258) fix(schema): keep sibling keys of $ref nodes in resolve_refs
 - [e2b-dev/awesome-ai-agents#1855](https://github.com/e2b-dev/awesome-ai-agents/pull/1855) Add openswarm
