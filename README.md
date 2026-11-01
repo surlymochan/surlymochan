@@ -11,6 +11,8 @@ I build tools for running coding agents, coordinating their work, and checking w
 
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"></p>
 
+<p><img src="https://img.shields.io/badge/Pull_Requests-1082-blue?logo=github" alt="Pull Requests: 1082"> <img src="https://img.shields.io/badge/Commits-5%2C671-green?logo=github" alt="Commits: 5,671"></p>
+
 ## Start Here
 
 - 🌐 **[Phanes](https://github.com/surlymochan/phanes)** — my current flagship: a distributed, heterogeneous, self-evolving agent network. One control plane for goals and acceptance, a unified pool of compute resources, and final acceptance that must cite independent verification — never a worker's self-report. Architecture passed an adversarial multi-model design review; building in stages.
