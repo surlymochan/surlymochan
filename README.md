@@ -9,18 +9,14 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
-<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"></p>
-
-<p><img src="https://img.shields.io/badge/Pull_Requests-1082-blue?logo=github" alt="Pull Requests: 1082"> <img src="https://img.shields.io/badge/Commits-5%2C671-green?logo=github" alt="Commits: 5,671"></p>
+<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2058-blue?logo=github" alt="Pull Requests: 2058"> <img src="https://img.shields.io/badge/Commits-6%2C835-green?logo=github" alt="Commits: 6,835"></p>
 
 ## PR Activity
 
 <!-- PR-CHARTS:START -->
-Pull requests I opened in external repositories (light blue) vs. those that got merged (dark blue), bucketed by Singapore date. Charts refresh hourly.
+All pull requests I opened or co-authored — in my own repositories, in nibiru-labs (where my daily work lands under my nibiru-anu alt with me as co-author) and in external projects: total opened (light blue) vs. merged (dark blue), bucketed by Singapore date. Charts refresh hourly.
 
 <p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="880"></p>
-
-<p><img src="assets/pr-charts/pr-daily.svg" alt="Daily pull requests: total vs merged" width="880"></p>
 
 <p><img src="assets/pr-charts/pr-weekly.svg" alt="Weekly pull requests: total vs merged" width="880"></p>
 <!-- PR-CHARTS:END -->

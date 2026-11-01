@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
 <rect x="0.5" y="0.5" width="879" height="429" rx="6" fill="#ffffff" stroke="#d1d9e0"/>
 <text x="20" y="34" font-size="20" font-weight="700" fill="#0969da">surlymochan</text>
-<text x="20" y="66" font-size="13" fill="#57606a">Pull requests — last 12 weeks · external repositories</text>
+<text x="20" y="66" font-size="13" fill="#57606a">Pull requests — last 12 weeks · all repositories</text>
 <rect x="580" y="55" width="12" height="12" fill="#9ecbff"/>
 <text x="597" y="66" font-size="12" fill="#1f2328">Total PRs</text>
 <rect x="685" y="55" width="12" height="12" fill="#0969da"/>
@@ -9,43 +9,55 @@
 <line x1="24" y1="372.0" x2="816" y2="372.0" stroke="#d8dee4" stroke-width="1"/>
 <text x="824" y="376.0" font-size="11" fill="#57606a">0</text>
 <line x1="24" y1="316.0" x2="816" y2="316.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
-<text x="824" y="320.0" font-size="11" fill="#57606a">8</text>
+<text x="824" y="320.0" font-size="11" fill="#57606a">200</text>
 <line x1="24" y1="260.0" x2="816" y2="260.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
-<text x="824" y="264.0" font-size="11" fill="#57606a">16</text>
+<text x="824" y="264.0" font-size="11" fill="#57606a">400</text>
 <line x1="24" y1="204.0" x2="816" y2="204.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
-<text x="824" y="208.0" font-size="11" fill="#57606a">24</text>
+<text x="824" y="208.0" font-size="11" fill="#57606a">600</text>
 <line x1="24" y1="148.0" x2="816" y2="148.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
-<text x="824" y="152.0" font-size="11" fill="#57606a">32</text>
+<text x="824" y="152.0" font-size="11" fill="#57606a">800</text>
 <line x1="24" y1="92.0" x2="816" y2="92.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
-<text x="824" y="96.0" font-size="11" fill="#57606a">40</text>
+<text x="824" y="96.0" font-size="11" fill="#57606a">1000</text>
+<rect x="34.9" y="361.6" width="21.1" height="10.4" fill="#9ecbff"/>
+<text x="45.4" y="357.6" font-size="10" fill="#57606a" text-anchor="middle">37</text>
+<rect x="58.0" y="361.6" width="21.1" height="10.4" fill="#0969da"/>
+<text x="68.6" y="357.6" font-size="10" fill="#57606a" text-anchor="middle">37</text>
 <text x="57.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Aug 10</text>
+<rect x="100.9" y="371.7" width="21.1" height="0.3" fill="#9ecbff"/>
+<text x="111.4" y="367.7" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<rect x="124.0" y="371.7" width="21.1" height="0.3" fill="#0969da"/>
+<text x="134.6" y="367.7" font-size="10" fill="#57606a" text-anchor="middle">1</text>
 <text x="123.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Aug 17</text>
+<rect x="166.9" y="371.7" width="21.1" height="0.3" fill="#9ecbff"/>
+<text x="177.4" y="367.7" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<rect x="190.0" y="371.7" width="21.1" height="0.3" fill="#0969da"/>
+<text x="200.6" y="367.7" font-size="10" fill="#57606a" text-anchor="middle">1</text>
 <text x="189.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Aug 24</text>
 <text x="255.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Aug 31</text>
 <text x="321.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Sep 7</text>
 <text x="387.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Sep 14</text>
 <text x="453.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Sep 21</text>
 <text x="519.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Sep 28</text>
-<rect x="562.9" y="344.0" width="21.1" height="28.0" fill="#9ecbff"/>
-<text x="573.4" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">4</text>
-<rect x="586.0" y="358.0" width="21.1" height="14.0" fill="#0969da"/>
-<text x="596.6" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<rect x="562.9" y="370.3" width="21.1" height="1.7" fill="#9ecbff"/>
+<text x="573.4" y="366.3" font-size="10" fill="#57606a" text-anchor="middle">6</text>
+<rect x="586.0" y="371.4" width="21.1" height="0.6" fill="#0969da"/>
+<text x="596.6" y="367.4" font-size="10" fill="#57606a" text-anchor="middle">2</text>
 <text x="585.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Oct 5</text>
-<rect x="628.9" y="127.0" width="21.1" height="245.0" fill="#9ecbff"/>
-<text x="639.4" y="123.0" font-size="10" fill="#57606a" text-anchor="middle">35</text>
-<rect x="652.0" y="316.0" width="21.1" height="56.0" fill="#0969da"/>
-<text x="662.6" y="312.0" font-size="10" fill="#57606a" text-anchor="middle">8</text>
+<rect x="628.9" y="137.9" width="21.1" height="234.1" fill="#9ecbff"/>
+<text x="639.4" y="133.9" font-size="10" fill="#57606a" text-anchor="middle">836</text>
+<rect x="652.0" y="179.1" width="21.1" height="192.9" fill="#0969da"/>
+<text x="662.6" y="175.1" font-size="10" fill="#57606a" text-anchor="middle">689</text>
 <text x="651.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Oct 12</text>
-<rect x="694.9" y="92.0" width="21.1" height="280.0" fill="#9ecbff"/>
-<text x="705.4" y="88.0" font-size="10" fill="#57606a" text-anchor="middle">40</text>
-<rect x="718.0" y="302.0" width="21.1" height="70.0" fill="#0969da"/>
-<text x="728.6" y="298.0" font-size="10" fill="#57606a" text-anchor="middle">10</text>
+<rect x="694.9" y="289.7" width="21.1" height="82.3" fill="#9ecbff"/>
+<text x="705.4" y="285.7" font-size="10" fill="#57606a" text-anchor="middle">294</text>
+<rect x="718.0" y="317.4" width="21.1" height="54.6" fill="#0969da"/>
+<text x="728.6" y="313.4" font-size="10" fill="#57606a" text-anchor="middle">195</text>
 <text x="717.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Oct 19</text>
-<rect x="760.9" y="134.0" width="21.1" height="238.0" fill="#9ecbff"/>
-<text x="771.4" y="130.0" font-size="10" fill="#57606a" text-anchor="middle">34</text>
-<rect x="784.0" y="316.0" width="21.1" height="56.0" fill="#0969da"/>
-<text x="794.6" y="312.0" font-size="10" fill="#57606a" text-anchor="middle">8</text>
+<rect x="760.9" y="150.0" width="21.1" height="222.0" fill="#9ecbff"/>
+<text x="771.4" y="146.0" font-size="10" fill="#57606a" text-anchor="middle">793</text>
+<rect x="784.0" y="204.0" width="21.1" height="168.0" fill="#0969da"/>
+<text x="794.6" y="200.0" font-size="10" fill="#57606a" text-anchor="middle">600</text>
 <text x="783.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Oct 26</text>
 <text x="783.0" y="400" font-size="10.5" fill="#57606a" text-anchor="middle">(so far)</text>
-<text x="860" y="420" font-size="10.5" fill="#57606a" text-anchor="end">Updated Nov 1, 2026 22:29 SGT · Source: GitHub API</text>
+<text x="860" y="420" font-size="10.5" fill="#57606a" text-anchor="end">Updated Nov 1, 2026 22:54 SGT · Source: GitHub API</text>
 </svg>
