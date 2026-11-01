@@ -16,9 +16,7 @@ I build tools for running coding agents, coordinating their work, and checking w
 <!-- PR-CHARTS:START -->
 All pull requests I opened or co-authored — in my own repositories, in nibiru-labs (where my daily work lands under my nibiru-anu alt with me as co-author) and in external projects: total opened (light blue) vs. merged (dark blue), bucketed by Singapore date. Charts refresh hourly.
 
-<p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="880"></p>
-
-<p><img src="assets/pr-charts/pr-weekly.svg" alt="Weekly pull requests: total vs merged" width="880"></p>
+<p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="49%"> <img src="assets/pr-charts/pr-weekly.svg" alt="Weekly pull requests: total vs merged" width="49%"></p>
 <!-- PR-CHARTS:END -->
 
 ## Start Here
