@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="879" height="429" rx="6" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="20" y="34" font-size="20" font-weight="700" fill="#0969da">surlymochan</text>
+<text x="20" y="66" font-size="13" fill="#57606a">Pull requests — last 30 days · external repositories</text>
+<rect x="580" y="55" width="12" height="12" fill="#9ecbff"/>
+<text x="597" y="66" font-size="12" fill="#1f2328">Total PRs</text>
+<rect x="685" y="55" width="12" height="12" fill="#0969da"/>
+<text x="702" y="66" font-size="12" fill="#1f2328">Merged PRs</text>
+<line x1="24" y1="372.0" x2="816" y2="372.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="824" y="376.0" font-size="11" fill="#57606a">0</text>
+<line x1="24" y1="316.0" x2="816" y2="316.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="824" y="320.0" font-size="11" fill="#57606a">4</text>
+<line x1="24" y1="260.0" x2="816" y2="260.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="824" y="264.0" font-size="11" fill="#57606a">8</text>
+<line x1="24" y1="204.0" x2="816" y2="204.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="824" y="208.0" font-size="11" fill="#57606a">12</text>
+<line x1="24" y1="148.0" x2="816" y2="148.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="824" y="152.0" font-size="11" fill="#57606a">16</text>
+<line x1="24" y1="92.0" x2="816" y2="92.0" stroke="#d8dee4" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="824" y="96.0" font-size="11" fill="#57606a">20</text>
+<text x="37.2" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 37.2 386)">Oct 3</text>
+<text x="63.6" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 63.6 386)">Oct 4</text>
+<text x="90.0" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 90.0 386)">Oct 5</text>
+<text x="116.4" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 116.4 386)">Oct 6</text>
+<text x="142.8" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 142.8 386)">Oct 7</text>
+<text x="169.2" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 169.2 386)">Oct 8</text>
+<rect x="186.2" y="344.0" width="8.4" height="28.0" fill="#9ecbff"/>
+<text x="190.4" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<rect x="196.6" y="344.0" width="8.4" height="28.0" fill="#0969da"/>
+<text x="200.8" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<text x="195.6" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 195.6 386)">Oct 9</text>
+<rect x="212.6" y="344.0" width="8.4" height="28.0" fill="#9ecbff"/>
+<text x="216.8" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<text x="222.0" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 222.0 386)">Oct 10</text>
+<text x="248.4" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 248.4 386)">Oct 11</text>
+<text x="274.8" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 274.8 386)">Oct 12</text>
+<text x="301.2" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 301.2 386)">Oct 13</text>
+<text x="327.6" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 327.6 386)">Oct 14</text>
+<text x="354.0" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 354.0 386)">Oct 15</text>
+<rect x="371.0" y="316.0" width="8.4" height="56.0" fill="#9ecbff"/>
+<text x="375.2" y="312.0" font-size="10" fill="#57606a" text-anchor="middle">4</text>
+<text x="380.4" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 380.4 386)">Oct 16</text>
+<rect x="397.4" y="218.0" width="8.4" height="154.0" fill="#9ecbff"/>
+<text x="401.6" y="214.0" font-size="10" fill="#57606a" text-anchor="middle">11</text>
+<rect x="407.8" y="288.0" width="8.4" height="84.0" fill="#0969da"/>
+<text x="412.0" y="284.0" font-size="10" fill="#57606a" text-anchor="middle">6</text>
+<text x="406.8" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 406.8 386)">Oct 17</text>
+<rect x="423.8" y="92.0" width="8.4" height="280.0" fill="#9ecbff"/>
+<text x="428.0" y="88.0" font-size="10" fill="#57606a" text-anchor="middle">20</text>
+<rect x="434.2" y="344.0" width="8.4" height="28.0" fill="#0969da"/>
+<text x="438.4" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<text x="433.2" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 433.2 386)">Oct 18</text>
+<rect x="450.2" y="288.0" width="8.4" height="84.0" fill="#9ecbff"/>
+<text x="454.4" y="284.0" font-size="10" fill="#57606a" text-anchor="middle">6</text>
+<rect x="460.6" y="358.0" width="8.4" height="14.0" fill="#0969da"/>
+<text x="464.8" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<text x="459.6" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 459.6 386)">Oct 19</text>
+<rect x="476.6" y="162.0" width="8.4" height="210.0" fill="#9ecbff"/>
+<text x="480.8" y="158.0" font-size="10" fill="#57606a" text-anchor="middle">15</text>
+<rect x="487.0" y="358.0" width="8.4" height="14.0" fill="#0969da"/>
+<text x="491.2" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<text x="486.0" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 486.0 386)">Oct 20</text>
+<rect x="513.4" y="344.0" width="8.4" height="28.0" fill="#0969da"/>
+<text x="517.6" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<text x="512.4" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 512.4 386)">Oct 21</text>
+<text x="538.8" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 538.8 386)">Oct 22</text>
+<rect x="555.8" y="260.0" width="8.4" height="112.0" fill="#9ecbff"/>
+<text x="560.0" y="256.0" font-size="10" fill="#57606a" text-anchor="middle">8</text>
+<rect x="566.2" y="330.0" width="8.4" height="42.0" fill="#0969da"/>
+<text x="570.4" y="326.0" font-size="10" fill="#57606a" text-anchor="middle">3</text>
+<text x="565.2" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 565.2 386)">Oct 23</text>
+<rect x="582.2" y="330.0" width="8.4" height="42.0" fill="#9ecbff"/>
+<text x="586.4" y="326.0" font-size="10" fill="#57606a" text-anchor="middle">3</text>
+<text x="591.6" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 591.6 386)">Oct 24</text>
+<rect x="608.6" y="260.0" width="8.4" height="112.0" fill="#9ecbff"/>
+<text x="612.8" y="256.0" font-size="10" fill="#57606a" text-anchor="middle">8</text>
+<rect x="619.0" y="330.0" width="8.4" height="42.0" fill="#0969da"/>
+<text x="623.2" y="326.0" font-size="10" fill="#57606a" text-anchor="middle">3</text>
+<text x="618.0" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 618.0 386)">Oct 25</text>
+<rect x="635.0" y="344.0" width="8.4" height="28.0" fill="#9ecbff"/>
+<text x="639.2" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<text x="644.4" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 644.4 386)">Oct 26</text>
+<rect x="661.4" y="358.0" width="8.4" height="14.0" fill="#9ecbff"/>
+<text x="665.6" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<text x="670.8" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 670.8 386)">Oct 27</text>
+<rect x="698.2" y="358.0" width="8.4" height="14.0" fill="#0969da"/>
+<text x="702.4" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<text x="697.2" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 697.2 386)">Oct 28</text>
+<rect x="714.2" y="106.0" width="8.4" height="266.0" fill="#9ecbff"/>
+<text x="718.4" y="102.0" font-size="10" fill="#57606a" text-anchor="middle">19</text>
+<text x="723.6" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 723.6 386)">Oct 29</text>
+<rect x="740.6" y="344.0" width="8.4" height="28.0" fill="#9ecbff"/>
+<text x="744.8" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<rect x="751.0" y="302.0" width="8.4" height="70.0" fill="#0969da"/>
+<text x="755.2" y="298.0" font-size="10" fill="#57606a" text-anchor="middle">5</text>
+<text x="750.0" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 750.0 386)">Oct 30</text>
+<rect x="767.0" y="344.0" width="8.4" height="28.0" fill="#9ecbff"/>
+<text x="771.2" y="340.0" font-size="10" fill="#57606a" text-anchor="middle">2</text>
+<rect x="777.4" y="358.0" width="8.4" height="14.0" fill="#0969da"/>
+<text x="781.6" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<text x="776.4" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 776.4 386)">Oct 31</text>
+<rect x="793.4" y="288.0" width="8.4" height="84.0" fill="#9ecbff"/>
+<text x="797.6" y="284.0" font-size="10" fill="#57606a" text-anchor="middle">6</text>
+<rect x="803.8" y="358.0" width="8.4" height="14.0" fill="#0969da"/>
+<text x="808.0" y="354.0" font-size="10" fill="#57606a" text-anchor="middle">1</text>
+<text x="802.8" y="388" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 802.8 386)">Nov 1</text>
+<text x="802.8" y="400" font-size="10.5" fill="#57606a" text-anchor="end" transform="rotate(-40 802.8 386)">(so far)</text>
+<text x="860" y="420" font-size="10.5" fill="#57606a" text-anchor="end">Updated Nov 1, 2026 14:25 SGT · Source: GitHub API</text>
+</svg>
