@@ -54,7 +54,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **28** across **15** repositories.
+Merged upstream pull requests: **30** across **16** repositories.
 
 **Apache SkyWalking**
 
@@ -91,6 +91,11 @@ Merged upstream pull requests: **28** across **15** repositories.
 - [openbot#2576](https://github.com/nightly-labs/openbot/pull/2576) Keep emoji whole when a Live Activity cuts a code span
 - [openbot#2578](https://github.com/nightly-labs/openbot/pull/2578) Report an MCP sign-in that cannot start
 
+**code-yeongyu/senpi**
+
+- [senpi#5269](https://github.com/code-yeongyu/senpi/pull/5269) fix(retry-fallback): a 503 whose body says "Billing Scope" is not an account usage limit
+- [senpi#5203](https://github.com/code-yeongyu/senpi/pull/5203) fix(coding-agent): weight CJK text in compaction cut-point budgets
+
 **comet-ml/opik**
 
 - [opik#9278](https://github.com/comet-ml/opik/pull/9278) issue-8590 SDK fix: accept repeated identical JSON objects in TS LLM-judge parser
@@ -109,8 +114,9 @@ Merged upstream pull requests: **28** across **15** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (61)</summary>
+<summary>In review (66)</summary>
 
+- [ag-ui-protocol/ag-ui#3284](https://github.com/ag-ui-protocol/ag-ui/pull/3284) fix(adk-middleware): resume HITL confirmation in the sub-agent that asked for it (#3262)
 - [ag-ui-protocol/ag-ui#3265](https://github.com/ag-ui-protocol/ag-ui/pull/3265) fix(a2a): send agent.headers on A2A requests
 - [ag-ui-protocol/ag-ui#3258](https://github.com/ag-ui-protocol/ag-ui/pull/3258) fix(adk-middleware): filter rewound events in adk_events_to_messages
 - [ag-ui-protocol/ag-ui#3241](https://github.com/ag-ui-protocol/ag-ui/pull/3241) fix(client): give interrupts without expiresAt a bounded default expiry
@@ -126,6 +132,9 @@ Merged upstream pull requests: **28** across **15** repositories.
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
+- [code-yeongyu/oh-my-openagent#12111](https://github.com/code-yeongyu/oh-my-openagent/pull/12111) fix(memory): treat an ESRCH-dead pid without a recorded start identity as dead
+- [code-yeongyu/oh-my-openagent#12070](https://github.com/code-yeongyu/oh-my-openagent/pull/12070) fix(senpi-desktop-service): map unknown interventionWatch values to the unknown sentinel (#11731)
+- [code-yeongyu/oh-my-openagent#12069](https://github.com/code-yeongyu/oh-my-openagent/pull/12069) fix(senpi-task): guard timer unref in host heartbeat teardown (#11714)
 - [code-yeongyu/oh-my-openagent#12041](https://github.com/code-yeongyu/oh-my-openagent/pull/12041) fix(lsp): honor lsp bindings from oh-my-opencode.jsonc fallback configs
 - [code-yeongyu/oh-my-openagent#12040](https://github.com/code-yeongyu/oh-my-openagent/pull/12040) Fix #11570: tokenize SVG foreignObject in fact verify
 - [code-yeongyu/oh-my-openagent#11745](https://github.com/code-yeongyu/oh-my-openagent/pull/11745) fix(omo-opencode): session_list date filter uses metadata time.updated instead of reading every session (#10796)
@@ -135,8 +144,6 @@ Merged upstream pull requests: **28** across **15** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
-- [code-yeongyu/senpi#5269](https://github.com/code-yeongyu/senpi/pull/5269) fix(retry-fallback): a 503 whose body says "Billing Scope" is not an account usage limit
-- [code-yeongyu/senpi#5203](https://github.com/code-yeongyu/senpi/pull/5203) fix(coding-agent): weight CJK text in compaction cut-point budgets
 - [comet-ml/opik#9320](https://github.com/comet-ml/opik/pull/9320) issue-9069 SDK fix: keep function calls and all text in streamed Gemini traces
 - [comet-ml/opik#9270](https://github.com/comet-ml/opik/pull/9270) NA SDK fix: aggregate Cohere streamed tool plan and tool calls
 - [crewAIInc/crewAI#8258](https://github.com/crewAIInc/crewAI/pull/8258) fix(schema): keep sibling keys of $ref nodes in resolve_refs
@@ -150,6 +157,9 @@ Merged upstream pull requests: **28** across **15** repositories.
 - [Jenqyang/Awesome-AI-Agents#687](https://github.com/Jenqyang/Awesome-AI-Agents/pull/687) Add OpenSwarm to Multi-Agent Task Solver Projects
 - [mahseema/awesome-ai-tools#2543](https://github.com/mahseema/awesome-ai-tools/pull/2543) Add Openflow to Code
 - [modelcontextprotocol/typescript-sdk#3050](https://github.com/modelcontextprotocol/typescript-sdk/pull/3050) fix(core): expand RFC 6570 list and multi-variable expressions correctly
+- [nightly-labs/openbot#4383](https://github.com/nightly-labs/openbot/pull/4383) test(auth-api): refuse two account migrations with the same number
+- [nightly-labs/openbot#4382](https://github.com/nightly-labs/openbot/pull/4382) fix(dev): run the pre-commit checks when OpenBot is in a subdirectory
+- [nightly-labs/openbot#4381](https://github.com/nightly-labs/openbot/pull/4381) fix(dev): bind the dev stack to loopback unless --lan is passed
 - [nightly-labs/openbot#3786](https://github.com/nightly-labs/openbot/pull/3786) fix(backend): re-read a spent usage reading before its reset
 - [nightly-labs/openbot#3686](https://github.com/nightly-labs/openbot/pull/3686) Fail the Gemini turn when Google answers with an account verification prompt
 - [NipunaRanasinghe/awesome-ai-agents#257](https://github.com/NipunaRanasinghe/awesome-ai-agents/pull/257) Add OpenSwarm to Core Frameworks
