@@ -9,7 +9,7 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
-<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2058-blue?logo=github" alt="Pull Requests: 2058"> <img src="https://img.shields.io/badge/Commits-6%2C835-green?logo=github" alt="Commits: 6,835"></p>
+<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
 
 ## PR Activity
 
@@ -43,10 +43,10 @@ All pull requests I opened or co-authored — in my own repositories, in nibiru-
 
 Recent merged contributions:
 
-- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pull/11237)** — persisted Momus review verdicts next to the plan they reviewed.
-- **[OpenBot](https://github.com/nightly-labs/openbot/pull/2577)** — read inline triple-backtick code as text in Live Activities.
-- **[OpenSpec](https://github.com/Fission-AI/OpenSpec/pull/2120)** — named the configured schema in the new-change progress line.
-- **[OpenClaw](https://github.com/openclaw/openclaw/pull/177871)** — preserved compatible reasoning in follow-up requests.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/5203)** — weighted CJK text in compaction cut-point budgets.
+- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pull/11909)** — named the parked-facts cause and run log in /doctor and reported retry outcomes.
+- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pull/11826)** — settled the relaunched cache before asserting on the store dir in cache-persist tests.
+- **[opik](https://github.com/comet-ml/opik/pull/9278)** — accepted repeated identical JSON objects in the TS LLM-judge parser.
 
 Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
 
