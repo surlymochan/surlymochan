@@ -2,7 +2,7 @@
 
 **Follow along:** I share what breaks (and what fixes it) putting AI agents into production — [**@surlymochan on X**](https://x.com/surlymochan) · [Contra](https://contra.com/chao_chen_p9d4xc5f)
 
-> ⭐ **If OpenFlow or OpenSwarm saves you time, a star is the best way to support the work — I'm pushing for 100 stars this month.**
+> ⭐ **If evalid or OpenSwarm saves you time, a star is the best way to support the work — I'm pushing for 100 stars this month.**
 
 
 **AI agents · Harness engineering · Reliable loops & graphs**
@@ -22,22 +22,22 @@ All pull requests I opened or co-authored — in my own repositories, in nibiru-
 ## Start Here
 
 - 🌐 **[Phanes](https://github.com/surlymochan/phanes)** — my current flagship: a distributed, heterogeneous, self-evolving agent network. One control plane for goals and acceptance, a unified pool of compute resources, and final acceptance that must cite independent verification — never a worker's self-report. Architecture passed an adversarial multi-model design review; building in stages.
-- 🔁 **[OpenFlow](https://github.com/surlymochan/openflow)** — executable delivery workflows for AI coding agents, with YAML phases and evidence gates. [Quickstart](https://github.com/surlymochan/openflow#3-minute-start) · [npm](https://www.npmjs.com/package/@surlymochan/openflow)
-- 🐝 **[OpenSwarm](https://github.com/surlymochan/openswarm)** — quota-aware dispatch across coding agents, with isolated git worktrees, time budgets, and host-side verification. [Getting started](https://github.com/surlymochan/openswarm#quickstart)
+- ✅ **[evalid](https://github.com/surlymochan/evalid)** — the runtime verification layer for coding agents: when an agent claims its tests pass, evalid replays the claim against a sealed full-tree snapshot — claimed ≠ verified. [npm](https://www.npmjs.com/package/@surlymochan/evalid)
+- 🐝 **[OpenSwarm](https://github.com/surlymochan/openswarm)** — a distributed dispatcher for heterogeneous agent tasks: workers claim tasks under leases and return evidence, across agents and model families, each task in its own git worktree. [Getting started](https://github.com/surlymochan/openswarm#quickstart)
 
 ## Current Projects
 
 ### The Unified Agent Network
 
-- **[Phanes](https://github.com/surlymochan/phanes)** is where OpenBot, OpenSwarm, and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
+- **[Phanes](https://github.com/surlymochan/phanes)** is where OpenBot, OpenSwarm (its task dispatcher), and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
 
 ### Harnesses & Delivery Workflows
 
-- **[OpenFlow](https://github.com/surlymochan/openflow)** turns delivery phases and acceptance evidence into an executable workflow. For developers who want to inspect how an agent's result was checked.
+- **[evalid](https://github.com/surlymochan/evalid)** is the runtime verification layer for coding agents. It seals the green test run as a full-tree snapshot (per-file hashes plus a run binding), then replays it from the snapshot — a pass only counts if it reproduces, and test files must hash-match the sealed run. Underneath sits a zero-judge pipeline (SPEC clarification, code-review, and test gates) for developers who want evidence, not self-reports.
 
 ### Agent Execution & Orchestration
 
-- **[OpenSwarm](https://github.com/surlymochan/openswarm)** separates planning from execution and routes tasks across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
+- **[OpenSwarm](https://github.com/surlymochan/openswarm)** is the distributed dispatcher for heterogeneous agent work: tasks go out under claim/lease semantics and come back with evidence, routed across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
 
 ## Open Source
 
