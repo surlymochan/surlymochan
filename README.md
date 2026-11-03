@@ -2,7 +2,7 @@
 
 **Follow along:** I share what breaks (and what fixes it) putting AI agents into production — [**@surlymochan on X**](https://x.com/surlymochan) · [Contra](https://contra.com/chao_chen_p9d4xc5f)
 
-> ⭐ **If evalid or OpenSwarm saves you time, a star is the best way to support the work — I'm pushing for 100 stars this month.**
+> ⭐ **If evalid or swrm saves you time, a star is the best way to support the work — I'm pushing for 100 stars this month.**
 
 
 **AI agents · Harness engineering · Reliable loops & graphs**
@@ -23,13 +23,13 @@ All pull requests I opened or co-authored — in my own repositories, in nibiru-
 
 - 🌐 **[Phanes](https://github.com/surlymochan/phanes)** — my current flagship: a distributed, heterogeneous, self-evolving agent network. One control plane for goals and acceptance, a unified pool of compute resources, and final acceptance that must cite independent verification — never a worker's self-report. Architecture passed an adversarial multi-model design review; building in stages.
 - ✅ **[evalid](https://github.com/surlymochan/evalid)** — the runtime verification layer for coding agents: when an agent claims its tests pass, evalid replays the claim against a sealed full-tree snapshot — claimed ≠ verified. [npm](https://www.npmjs.com/package/@surlymochan/evalid)
-- 🐝 **[OpenSwarm](https://github.com/surlymochan/openswarm)** — a distributed dispatcher for heterogeneous agent tasks: workers claim tasks under leases and return evidence, across agents and model families, each task in its own git worktree. [Getting started](https://github.com/surlymochan/openswarm#quickstart)
+- 🐝 **[swrm](https://github.com/surlymochan/swrm)** — a distributed dispatcher for heterogeneous agent tasks: workers claim tasks under leases and return evidence, across agents and model families, each task in its own git worktree. [Getting started](https://github.com/surlymochan/swrm#quickstart)
 
 ## Current Projects
 
 ### The Unified Agent Network
 
-- **[Phanes](https://github.com/surlymochan/phanes)** is where OpenBot, OpenSwarm (its task dispatcher), and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
+- **[Phanes](https://github.com/surlymochan/phanes)** is where OpenBot, swrm (its task dispatcher), and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
 
 ### Harnesses & Delivery Workflows
 
@@ -37,7 +37,7 @@ All pull requests I opened or co-authored — in my own repositories, in nibiru-
 
 ### Agent Execution & Orchestration
 
-- **[OpenSwarm](https://github.com/surlymochan/openswarm)** is the distributed dispatcher for heterogeneous agent work: tasks go out under claim/lease semantics and come back with evidence, routed across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
+- **[swrm](https://github.com/surlymochan/swrm)** (formerly OpenSwarm) is the distributed dispatcher for heterogeneous agent work: tasks go out under claim/lease semantics and come back with evidence, routed across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
 
 ## Open Source
 
