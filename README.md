@@ -54,7 +54,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **32** across **17** repositories.
+Merged upstream pull requests: **35** across **17** repositories.
 
 **Apache SkyWalking**
 
@@ -79,6 +79,14 @@ Merged upstream pull requests: **32** across **17** repositories.
 - [oh-my-openagent#11237](https://github.com/code-yeongyu/oh-my-openagent/pull/11237) feat(hooks): persist Momus review verdicts next to the plan
 - [oh-my-openagent#11228](https://github.com/code-yeongyu/oh-my-openagent/pull/11228) fix(omo-senpi): make init-deep committed mode self-contained
 
+**code-yeongyu/senpi**
+
+- [senpi#5700](https://github.com/code-yeongyu/senpi/pull/5700) fix(ask-user): restore dangling questions on startup opens
+- [senpi#5616](https://github.com/code-yeongyu/senpi/pull/5616) fix(claude-account): emit accounts_changed once per account add
+- [senpi#5614](https://github.com/code-yeongyu/senpi/pull/5614) test(coding-agent): run source compile cache teardown even when assertions fail
+- [senpi#5269](https://github.com/code-yeongyu/senpi/pull/5269) fix(retry-fallback): a 503 whose body says "Billing Scope" is not an account usage limit
+- [senpi#5203](https://github.com/code-yeongyu/senpi/pull/5203) fix(coding-agent): weight CJK text in compaction cut-point budgets
+
 **OpenSpec**
 
 - [OpenSpec#2120](https://github.com/Fission-AI/OpenSpec/pull/2120) fix(new-change): name the configured schema in the progress line
@@ -91,11 +99,6 @@ Merged upstream pull requests: **32** across **17** repositories.
 - [openbot#2577](https://github.com/nightly-labs/openbot/pull/2577) Read inline triple-backtick code as text in Live Activities
 - [openbot#2576](https://github.com/nightly-labs/openbot/pull/2576) Keep emoji whole when a Live Activity cuts a code span
 - [openbot#2578](https://github.com/nightly-labs/openbot/pull/2578) Report an MCP sign-in that cannot start
-
-**code-yeongyu/senpi**
-
-- [senpi#5269](https://github.com/code-yeongyu/senpi/pull/5269) fix(retry-fallback): a 503 whose body says "Billing Scope" is not an account usage limit
-- [senpi#5203](https://github.com/code-yeongyu/senpi/pull/5203) fix(coding-agent): weight CJK text in compaction cut-point budgets
 
 **comet-ml/opik**
 
@@ -119,7 +122,7 @@ Merged upstream pull requests: **32** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (67)</summary>
+<summary>In review (65)</summary>
 
 - [ag-ui-protocol/ag-ui#3284](https://github.com/ag-ui-protocol/ag-ui/pull/3284) fix(adk-middleware): resume HITL confirmation in the sub-agent that asked for it (#3262)
 - [ag-ui-protocol/ag-ui#3265](https://github.com/ag-ui-protocol/ag-ui/pull/3265) fix(a2a): send agent.headers on A2A requests
@@ -148,8 +151,6 @@ Merged upstream pull requests: **32** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
-- [code-yeongyu/senpi#5616](https://github.com/code-yeongyu/senpi/pull/5616) fix(claude-account): emit accounts_changed once per account add
-- [code-yeongyu/senpi#5614](https://github.com/code-yeongyu/senpi/pull/5614) test(coding-agent): run source compile cache teardown even when assertions fail
 - [code-yeongyu/senpi#5517](https://github.com/code-yeongyu/senpi/pull/5517) fix(hooks): skip the trust-state lock when the state file is absent
 - [comet-ml/opik#9320](https://github.com/comet-ml/opik/pull/9320) issue-9069 SDK fix: keep function calls and all text in streamed Gemini traces
 - [comet-ml/opik#9270](https://github.com/comet-ml/opik/pull/9270) NA SDK fix: aggregate Cohere streamed tool plan and tool calls
