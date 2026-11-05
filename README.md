@@ -54,7 +54,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **35** across **17** repositories.
+Merged upstream pull requests: **36** across **17** repositories.
 
 **Apache SkyWalking**
 
@@ -81,6 +81,7 @@ Merged upstream pull requests: **35** across **17** repositories.
 
 **code-yeongyu/senpi**
 
+- [senpi#5854](https://github.com/code-yeongyu/senpi/pull/5854) fix(codemode): probe kill-guard sleeper liveness without ps
 - [senpi#5700](https://github.com/code-yeongyu/senpi/pull/5700) fix(ask-user): restore dangling questions on startup opens
 - [senpi#5616](https://github.com/code-yeongyu/senpi/pull/5616) fix(claude-account): emit accounts_changed once per account add
 - [senpi#5614](https://github.com/code-yeongyu/senpi/pull/5614) test(coding-agent): run source compile cache teardown even when assertions fail
@@ -122,7 +123,7 @@ Merged upstream pull requests: **35** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (65)</summary>
+<summary>In review (73)</summary>
 
 - [ag-ui-protocol/ag-ui#3284](https://github.com/ag-ui-protocol/ag-ui/pull/3284) fix(adk-middleware): resume HITL confirmation in the sub-agent that asked for it (#3262)
 - [ag-ui-protocol/ag-ui#3265](https://github.com/ag-ui-protocol/ag-ui/pull/3265) fix(a2a): send agent.headers on A2A requests
@@ -140,6 +141,11 @@ Merged upstream pull requests: **35** across **17** repositories.
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
+- [code-yeongyu/oh-my-openagent#12534](https://github.com/code-yeongyu/oh-my-openagent/pull/12534) fix(omo-native): report broken omo wrapper and duplicate omo-ai installs in doctor
+- [code-yeongyu/oh-my-openagent#12531](https://github.com/code-yeongyu/oh-my-openagent/pull/12531) fix(memory-core): pin the ps-lstart fallback to UTC so a live owner cannot read as dead under a different TZ
+- [code-yeongyu/oh-my-openagent#12529](https://github.com/code-yeongyu/oh-my-openagent/pull/12529) test(omo-senpi): require the launcher attestation on initial-namespace Linux in sandbox-engine-trust.test.ts
+- [code-yeongyu/oh-my-openagent#12502](https://github.com/code-yeongyu/oh-my-openagent/pull/12502) test(team-e2e): use a collision-proof fake root pid in taskkill cases
+- [code-yeongyu/oh-my-openagent#12501](https://github.com/code-yeongyu/oh-my-openagent/pull/12501) test(senpi-task): create engine agent dirs with mode 0700
 - [code-yeongyu/oh-my-openagent#12111](https://github.com/code-yeongyu/oh-my-openagent/pull/12111) fix(memory): treat an ESRCH-dead pid without a recorded start identity as dead
 - [code-yeongyu/oh-my-openagent#12070](https://github.com/code-yeongyu/oh-my-openagent/pull/12070) fix(senpi-desktop-service): map unknown interventionWatch values to the unknown sentinel (#11731)
 - [code-yeongyu/oh-my-openagent#12069](https://github.com/code-yeongyu/oh-my-openagent/pull/12069) fix(senpi-task): guard timer unref in host heartbeat teardown (#11714)
@@ -151,6 +157,9 @@ Merged upstream pull requests: **35** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
+- [code-yeongyu/senpi#5997](https://github.com/code-yeongyu/senpi/pull/5997) test(kill-guard): stop owned sleepers on process exit, shorten TTL to 60s
+- [code-yeongyu/senpi#5914](https://github.com/code-yeongyu/senpi/pull/5914) test(coding-agent): skip grep search step when no grep engine is available
+- [code-yeongyu/senpi#5908](https://github.com/code-yeongyu/senpi/pull/5908) test(coding-agent): drive user bash through default operations in kill-guard test
 - [code-yeongyu/senpi#5517](https://github.com/code-yeongyu/senpi/pull/5517) fix(hooks): skip the trust-state lock when the state file is absent
 - [comet-ml/opik#9320](https://github.com/comet-ml/opik/pull/9320) issue-9069 SDK fix: keep function calls and all text in streamed Gemini traces
 - [comet-ml/opik#9270](https://github.com/comet-ml/opik/pull/9270) NA SDK fix: aggregate Cohere streamed tool plan and tool calls
