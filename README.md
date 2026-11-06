@@ -54,10 +54,27 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **36** across **17** repositories.
+Merged upstream pull requests: **44** across **17** repositories.
+
+**code-yeongyu/oh-my-openagent**
+
+- [oh-my-openagent#12571](https://github.com/code-yeongyu/oh-my-openagent/pull/12571) test(omo-senpi): rename the buildWidgetRows resident-member case left by #12160
+- [oh-my-openagent#12534](https://github.com/code-yeongyu/oh-my-openagent/pull/12534) fix(omo-native): report broken omo wrapper and duplicate omo-ai installs in doctor
+- [oh-my-openagent#12529](https://github.com/code-yeongyu/oh-my-openagent/pull/12529) test(omo-senpi): require the launcher attestation on initial-namespace Linux in sandbox-engine-trust.test.ts
+- [oh-my-openagent#12502](https://github.com/code-yeongyu/oh-my-openagent/pull/12502) test(team-e2e): use a collision-proof fake root pid in taskkill cases
+- [oh-my-openagent#12501](https://github.com/code-yeongyu/oh-my-openagent/pull/12501) test(senpi-task): create engine agent dirs with mode 0700
+- [oh-my-openagent#12040](https://github.com/code-yeongyu/oh-my-openagent/pull/12040) Fix #11570: tokenize SVG foreignObject in fact verify
+- [oh-my-openagent#11909](https://github.com/code-yeongyu/oh-my-openagent/pull/11909) feat(memory): name the parked-facts cause and run log in /doctor; report retry outcomes
+- [oh-my-openagent#11826](https://github.com/code-yeongyu/oh-my-openagent/pull/11826) fix(memory-core): settle the relaunched cache before asserting on the store dir in cache-persist tests
+- [oh-my-openagent#11699](https://github.com/code-yeongyu/oh-my-openagent/pull/11699) fix(memory): let update_description add frontmatter to a note that has none
+- [oh-my-openagent#11698](https://github.com/code-yeongyu/oh-my-openagent/pull/11698) fix(omo-senpi): freeze the shared models.json parse and type it deeply readonly
+- [oh-my-openagent#11697](https://github.com/code-yeongyu/oh-my-openagent/pull/11697) fix(omo-senpi): pin competing pathspec switches off for side panel git diffs
+- [oh-my-openagent#11237](https://github.com/code-yeongyu/oh-my-openagent/pull/11237) feat(hooks): persist Momus review verdicts next to the plan
+- [oh-my-openagent#11228](https://github.com/code-yeongyu/oh-my-openagent/pull/11228) fix(omo-senpi): make init-deep committed mode self-contained
 
 **Apache SkyWalking**
 
+- [skywalking-satellite#292](https://github.com/apache/skywalking-satellite/pull/292) Fix routing key order in OTLP metrics v1 forwarder
 - [skywalking-swck#232](https://github.com/apache/skywalking-swck/pull/232) Bump golang.org/x/net to v0.61.0 in adapter and operator
 - [skywalking-mcp#45](https://github.com/apache/skywalking-mcp/pull/45) Bump golang.org/x/text and x/sys to clear govulncheck advisories
 - [skywalking-go#258](https://github.com/apache/skywalking-go/pull/258) Bump grpc to v1.83.2 and x/net to v0.58.0 to fix known CVEs
@@ -68,19 +85,10 @@ Merged upstream pull requests: **36** across **17** repositories.
 - [skywalking-satellite#289](https://github.com/apache/skywalking-satellite/pull/289) Archive 1.3.0 changelog and start 1.4.0 section
 - [skywalking-rover#220](https://github.com/apache/skywalking-rover/pull/220) Bump up grpc to 1.84.0 to fix CVE-2026-33186
 
-**code-yeongyu/oh-my-openagent**
-
-- [oh-my-openagent#12040](https://github.com/code-yeongyu/oh-my-openagent/pull/12040) Fix #11570: tokenize SVG foreignObject in fact verify
-- [oh-my-openagent#11909](https://github.com/code-yeongyu/oh-my-openagent/pull/11909) feat(memory): name the parked-facts cause and run log in /doctor; report retry outcomes
-- [oh-my-openagent#11826](https://github.com/code-yeongyu/oh-my-openagent/pull/11826) fix(memory-core): settle the relaunched cache before asserting on the store dir in cache-persist tests
-- [oh-my-openagent#11699](https://github.com/code-yeongyu/oh-my-openagent/pull/11699) fix(memory): let update_description add frontmatter to a note that has none
-- [oh-my-openagent#11698](https://github.com/code-yeongyu/oh-my-openagent/pull/11698) fix(omo-senpi): freeze the shared models.json parse and type it deeply readonly
-- [oh-my-openagent#11697](https://github.com/code-yeongyu/oh-my-openagent/pull/11697) fix(omo-senpi): pin competing pathspec switches off for side panel git diffs
-- [oh-my-openagent#11237](https://github.com/code-yeongyu/oh-my-openagent/pull/11237) feat(hooks): persist Momus review verdicts next to the plan
-- [oh-my-openagent#11228](https://github.com/code-yeongyu/oh-my-openagent/pull/11228) fix(omo-senpi): make init-deep committed mode self-contained
-
 **code-yeongyu/senpi**
 
+- [senpi#5997](https://github.com/code-yeongyu/senpi/pull/5997) test(kill-guard): stop owned sleepers on process exit, shorten TTL to 60s
+- [senpi#5908](https://github.com/code-yeongyu/senpi/pull/5908) test(coding-agent): drive user bash through default operations in kill-guard test
 - [senpi#5854](https://github.com/code-yeongyu/senpi/pull/5854) fix(codemode): probe kill-guard sleeper liveness without ps
 - [senpi#5700](https://github.com/code-yeongyu/senpi/pull/5700) fix(ask-user): restore dangling questions on startup opens
 - [senpi#5616](https://github.com/code-yeongyu/senpi/pull/5616) fix(claude-account): emit accounts_changed once per account add
@@ -123,8 +131,10 @@ Merged upstream pull requests: **36** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (73)</summary>
+<summary>In review (79)</summary>
 
+- [ag-ui-protocol/ag-ui#3326](https://github.com/ag-ui-protocol/ag-ui/pull/3326) fix(adk-middleware): keep valid inline data when BinaryInputContent also carries id/url
+- [ag-ui-protocol/ag-ui#3325](https://github.com/ag-ui-protocol/ag-ui/pull/3325) issue-3077 adk-middleware fix: completed runs awaiting client tool results do not occupy concurrency slots
 - [ag-ui-protocol/ag-ui#3284](https://github.com/ag-ui-protocol/ag-ui/pull/3284) fix(adk-middleware): resume HITL confirmation in the sub-agent that asked for it (#3262)
 - [ag-ui-protocol/ag-ui#3265](https://github.com/ag-ui-protocol/ag-ui/pull/3265) fix(a2a): send agent.headers on A2A requests
 - [ag-ui-protocol/ag-ui#3258](https://github.com/ag-ui-protocol/ag-ui/pull/3258) fix(adk-middleware): filter rewound events in adk_events_to_messages
@@ -135,17 +145,18 @@ Merged upstream pull requests: **36** across **17** repositories.
 - [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
 - [anomalyco/opencode#57237](https://github.com/anomalyco/opencode/pull/57237) fix(cli): expose retryable ACP plugin activation readiness errors
 - [anomalyco/opencode#57236](https://github.com/anomalyco/opencode/pull/57236) fix(core): retry truncated compaction with less history
-- [apache/skywalking-satellite#292](https://github.com/apache/skywalking-satellite/pull/292) Fix routing key order in OTLP metrics v1 forwarder
 - [ARUNAGIRINATHAN-K/awesome-ai-agents-2026#494](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026/pull/494) Add OpenFlow to Coding Agents
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
-- [code-yeongyu/oh-my-openagent#12534](https://github.com/code-yeongyu/oh-my-openagent/pull/12534) fix(omo-native): report broken omo wrapper and duplicate omo-ai installs in doctor
+- [code-yeongyu/oh-my-openagent#12623](https://github.com/code-yeongyu/oh-my-openagent/pull/12623) fix(no-raw-tls): list the omo-native omowright runtime in KNOWN_BUILT_RUNTIMES (#12242)
+- [code-yeongyu/oh-my-openagent#12616](https://github.com/code-yeongyu/oh-my-openagent/pull/12616) fix(utils): logger no longer captures globalThis timers at module load; close #12218 follow-ups
+- [code-yeongyu/oh-my-openagent#12604](https://github.com/code-yeongyu/oh-my-openagent/pull/12604) fix(senpi-task): heal rpc key dir before task host ensure (#12194)
+- [code-yeongyu/oh-my-openagent#12568](https://github.com/code-yeongyu/oh-my-openagent/pull/12568) fix(memory-sync): refuse non-regular leaf files on landing
+- [code-yeongyu/oh-my-openagent#12545](https://github.com/code-yeongyu/oh-my-openagent/pull/12545) fix(memory-core): assert the timeout-diagnostics contract, not the host's snapshot
+- [code-yeongyu/oh-my-openagent#12544](https://github.com/code-yeongyu/oh-my-openagent/pull/12544) fix(omo-senpi): name the onboarding skill instead of its install path
 - [code-yeongyu/oh-my-openagent#12531](https://github.com/code-yeongyu/oh-my-openagent/pull/12531) fix(memory-core): pin the ps-lstart fallback to UTC so a live owner cannot read as dead under a different TZ
-- [code-yeongyu/oh-my-openagent#12529](https://github.com/code-yeongyu/oh-my-openagent/pull/12529) test(omo-senpi): require the launcher attestation on initial-namespace Linux in sandbox-engine-trust.test.ts
-- [code-yeongyu/oh-my-openagent#12502](https://github.com/code-yeongyu/oh-my-openagent/pull/12502) test(team-e2e): use a collision-proof fake root pid in taskkill cases
-- [code-yeongyu/oh-my-openagent#12501](https://github.com/code-yeongyu/oh-my-openagent/pull/12501) test(senpi-task): create engine agent dirs with mode 0700
 - [code-yeongyu/oh-my-openagent#12111](https://github.com/code-yeongyu/oh-my-openagent/pull/12111) fix(memory): treat an ESRCH-dead pid without a recorded start identity as dead
 - [code-yeongyu/oh-my-openagent#12070](https://github.com/code-yeongyu/oh-my-openagent/pull/12070) fix(senpi-desktop-service): map unknown interventionWatch values to the unknown sentinel (#11731)
 - [code-yeongyu/oh-my-openagent#12069](https://github.com/code-yeongyu/oh-my-openagent/pull/12069) fix(senpi-task): guard timer unref in host heartbeat teardown (#11714)
@@ -157,9 +168,10 @@ Merged upstream pull requests: **36** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
-- [code-yeongyu/senpi#5997](https://github.com/code-yeongyu/senpi/pull/5997) test(kill-guard): stop owned sleepers on process exit, shorten TTL to 60s
+- [code-yeongyu/senpi#6118](https://github.com/code-yeongyu/senpi/pull/6118) fix(coding-agent): read process start times in UTC so DST fall-back hours keep live holders (senpi#3067 L1)
+- [code-yeongyu/senpi#6110](https://github.com/code-yeongyu/senpi/pull/6110) fix(credential-pool): keep a model-not-in-plan 403 from blocking the slot
+- [code-yeongyu/senpi#6103](https://github.com/code-yeongyu/senpi/pull/6103) fix(fmt): resolve bun without a shell so spaced paths stay one argument; fix stale releasability comment (#5599)
 - [code-yeongyu/senpi#5914](https://github.com/code-yeongyu/senpi/pull/5914) test(coding-agent): skip grep search step when no grep engine is available
-- [code-yeongyu/senpi#5908](https://github.com/code-yeongyu/senpi/pull/5908) test(coding-agent): drive user bash through default operations in kill-guard test
 - [code-yeongyu/senpi#5517](https://github.com/code-yeongyu/senpi/pull/5517) fix(hooks): skip the trust-state lock when the state file is absent
 - [comet-ml/opik#9320](https://github.com/comet-ml/opik/pull/9320) issue-9069 SDK fix: keep function calls and all text in streamed Gemini traces
 - [comet-ml/opik#9270](https://github.com/comet-ml/opik/pull/9270) NA SDK fix: aggregate Cohere streamed tool plan and tool calls
@@ -193,6 +205,8 @@ Merged upstream pull requests: **36** across **17** repositories.
 - [openclaw/openclaw#175933](https://github.com/openclaw/openclaw/pull/175933) docs(macos): explain the Bun local-network and Git prompts on first launch
 - [RoggeOhta/awesome-codex-cli#487](https://github.com/RoggeOhta/awesome-codex-cli/pull/487) Add openflow to Cross-Agent Tools
 - [rohitg00/awesome-claude-code-toolkit#874](https://github.com/rohitg00/awesome-claude-code-toolkit/pull/874) Add openflow to the Ecosystem table
+- [run-llama/llama_index#24007](https://github.com/run-llama/llama_index/pull/24007) fix(core): return no nodes from SimplePropertyGraphStore.get for empty ids
+- [run-llama/llama_index#23992](https://github.com/run-llama/llama_index/pull/23992) fix(core): let as_retriever kwargs override index defaults
 - [run-llama/llama_index#23603](https://github.com/run-llama/llama_index/pull/23603) fix(core): use matching embeddings in EmbeddingRecencyPostprocessor
 - [slavakurilyak/awesome-ai-agents#875](https://github.com/slavakurilyak/awesome-ai-agents/pull/875) Add OpenFlow (executable delivery workflows for AI coding agents)
 - [strands-agents/harness-sdk#5622](https://github.com/strands-agents/harness-sdk/pull/5622) fix(tools): warn when a tool parameter named agent has a non-Agent annotation
