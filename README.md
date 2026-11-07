@@ -9,6 +9,8 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
+<a href="https://github.com/surlymochan/phanes"><img src="assets/phanes/launch-loop.gif" alt="Phanes — a network is a system" width="100%"></a>
+
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
 
 ## PR Activity
@@ -21,9 +23,18 @@ All pull requests I opened or co-authored — in my own repositories, in nibiru-
 
 ## Start Here
 
-- 🌐 **[Phanes](https://github.com/surlymochan/phanes)** — my current flagship: a distributed, heterogeneous, self-evolving agent network. One control plane for goals and acceptance, a unified pool of compute resources, and final acceptance that must cite independent verification — never a worker's self-report. Architecture passed an adversarial multi-model design review; building in stages.
-- ✅ **[evalid](https://github.com/surlymochan/evalid)** — the runtime verification layer for coding agents: when an agent claims its tests pass, evalid replays the claim against a sealed full-tree snapshot — claimed ≠ verified. [npm](https://www.npmjs.com/package/@surlymochan/evalid)
-- 🐝 **[swrm](https://github.com/surlymochan/swrm)** — a distributed dispatcher for heterogeneous agent tasks: workers claim tasks under leases and return evidence, across agents and model families, each task in its own git worktree. [Getting started](https://github.com/surlymochan/swrm#quickstart)
+> **Claimed ≠ verified.** I’m building agent systems where delivery is an evidence trail, not a status update.
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| 🌐 **[Phanes](https://github.com/surlymochan/phanes)** | One control plane for goals and acceptance; distributed execution; evidence-backed self-improvement. Final acceptance must cite independent verification, never a worker’s self-report. | **Building / consolidating** |
+| 🟣 **[volto](https://github.com/surlymochan/volto)** | A planned control plane where each bot has a role, memory, and knowledge, and negotiates work as a cast. | **Name reserved; relaunch in progress** |
+| 🐝 **[swrm](https://github.com/surlymochan/swrm)** | A lease-based dispatcher for heterogeneous coding agents: isolated worktrees, explicit limits, and returned evidence. | **Available** · [Quickstart](https://github.com/surlymochan/swrm#quickstart) |
+| ✅ **[evalid](https://github.com/surlymochan/evalid)** | Seals a coding agent’s test run and replays it from a clean snapshot: claimed ≠ verified. | **Available** · [npm](https://www.npmjs.com/package/@surlymochan/evalid) |
+
+### A small, public comparison
+
+On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V4.1-Flash, one run per issue, and a 20-minute cap. A solve means the official tests passed: **swrm 5/6 · evalid 4/6 · plain agent 3/6 · Superpowers 2/6**. This is a small project-reported experiment, not a general leaderboard; raw runs and methodology are in the [swrm benchmark](https://github.com/surlymochan/swrm/tree/main/bench/swebench) and [evalid benchmark](https://github.com/surlymochan/evalid/tree/main/bench/swebench).
 
 ## Current Projects
 
@@ -38,6 +49,10 @@ All pull requests I opened or co-authored — in my own repositories, in nibiru-
 ### Agent Execution & Orchestration
 
 - **[swrm](https://github.com/surlymochan/swrm)** (formerly OpenSwarm) is the distributed dispatcher for heterogeneous agent work: tasks go out under claim/lease semantics and come back with evidence, routed across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
+
+### Role-based Agent Work
+
+- **[volto](https://github.com/surlymochan/volto)** is the planned future home of the project formerly known as OpenBot. Its direction is a role-based control plane where every bot carries distinct role, memory, and knowledge. The repository currently reserves the name while the relaunch takes shape.
 
 ## Open Source
 
