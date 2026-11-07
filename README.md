@@ -11,6 +11,8 @@ I build tools for running coding agents, coordinating their work, and checking w
 
 [![Phanes — a network is a system](https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/cover.png)](https://github.com/surlymochan/phanes)
 
+▶ [Watch the 30-second launch film →](https://x.com/surlymochan/status/2119151618323329057)
+
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
 
 ## Start Here
