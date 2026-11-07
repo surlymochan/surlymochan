@@ -9,9 +9,13 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
-[![Phanes — a network is a system · 10-second looping preview](https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/launch-loop.gif)](https://github.com/surlymochan/phanes)
-
-▶ [Watch the 30-second launch film →](https://x.com/surlymochan/status/2119151618323329057)
+<p align="center">
+  <a href="https://x.com/surlymochan/status/2119151618323329057">
+    <img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-github-demo.gif" alt="Animated verification demo: reject, replay, accept" width="480">
+  </a>
+  <br>
+  <sub>5-second verification loop · <a href="https://x.com/surlymochan/status/2119151618323329057">Watch the full 30-second film →</a></sub>
+</p>
 
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
 
