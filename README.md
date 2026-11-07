@@ -52,7 +52,7 @@ On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V
 
 <p align="center">
   <a href="https://x.com/surlymochan/status/2119151618323329057">
-    <img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-github-demo.gif" alt="Animated verification demo: reject, replay, accept" width="480">
+    <img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-github-demo.gif" alt="Animated verification demo: reject, replay, accept" width="240" height="135">
   </a>
   <br>
   <sub>5-second verification loop · <a href="https://x.com/surlymochan/status/2119151618323329057">Watch the full 30-second film →</a></sub>
