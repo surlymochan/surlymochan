@@ -17,46 +17,34 @@ I build tools for running coding agents, coordinating their work, and checking w
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/surlymochan/phanes"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-project-card.jpg" alt="Phanes — one network, one system" width="380"></a>
-      <br>
-      One control plane for goals, execution and evidence-based acceptance.
-      <br><sub><strong>Building / consolidating</strong></sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/surlymochan/volto"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/volto-project-card.jpg" alt="volto — roles, memory, identity" width="380"></a>
-      <br>
-      Roles, memory and knowledge for agents that work as a cast.
-      <br><sub><strong>Planned relaunch · implementation forthcoming</strong></sub>
+    <td width="25%" align="center"><a href="https://github.com/surlymochan/phanes"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-project-card.jpg" alt="phanes project" width="180"></a></td>
+    <td width="25%" align="center"><a href="https://github.com/surlymochan/volto"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/volto-project-card.jpg" alt="volto project" width="180"></a></td>
+    <td width="50%" rowspan="2" align="center" valign="middle">
+      <a href="https://x.com/surlymochan/status/2119151618323329057"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-tour.gif" alt="Animated tour of Phanes, volto, swrm and evalid" width="340"></a>
+      <br><sub>31-second tour · all four projects + comparison</sub>
+      <br><sub>volto: planned relaunch; implementation forthcoming</sub>
+      <br><sub><a href="https://x.com/surlymochan/status/2119151618323329057">Watch the launch film →</a></sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/surlymochan/swrm"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/swrm-project-card.jpg" alt="swrm — dispatch with evidence" width="380"></a>
-      <br>
-      Dispatch heterogeneous coding agents with leases, limits and evidence.
-      <br><sub><strong>Available</strong></sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/surlymochan/evalid"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/evalid-project-card.jpg" alt="evalid — claimed is not verified" width="380"></a>
-      <br>
-      Seal a source snapshot and replay verification in isolation.
-      <br><sub><strong>Available</strong></sub>
-    </td>
+    <td align="center"><a href="https://github.com/surlymochan/swrm"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/swrm-project-card.jpg" alt="swrm project" width="180"></a></td>
+    <td align="center"><a href="https://github.com/surlymochan/evalid"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/evalid-project-card.jpg" alt="evalid project" width="180"></a></td>
   </tr>
+</table>
+
+<table>
+  <thead><tr><th width="140" align="left">Project</th><th width="440" align="left">What it does</th><th width="160" align="left">Status</th></tr></thead>
+  <tbody>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/phanes">Phanes</a></strong></td><td valign="middle">Unifies goals, distributed execution and evidence-based acceptance.</td><td valign="middle">Consolidating</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/volto">volto</a></strong></td><td valign="middle">Planned roles, memory and knowledge for collaborating agents.</td><td valign="middle">Planned relaunch</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/swrm">swrm</a></strong></td><td valign="middle">Dispatches agents with leases, isolated worktrees and limits.</td><td valign="middle">Available</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/evalid">evalid</a></strong></td><td valign="middle">Seals source snapshots and replays verification in isolation.</td><td valign="middle">Available</td></tr>
+  </tbody>
 </table>
 
 ### A small, public comparison
 
 On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V4.1-Flash, one run per issue, and a 20-minute cap. A solve means the official tests passed: **swrm 5/6 · evalid 4/6 · plain agent 3/6 · Superpowers 2/6**. This is a small project-reported experiment, not a general leaderboard; raw runs and methodology are in the [swrm benchmark](https://github.com/surlymochan/swrm/tree/main/bench/swebench) and [evalid benchmark](https://github.com/surlymochan/evalid/tree/main/bench/swebench).
-
-<p align="center">
-  <a href="https://x.com/surlymochan/status/2119151618323329057">
-    <img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-github-demo.gif" alt="Animated verification demo: reject, replay, accept" width="240" height="135">
-  </a>
-  <br>
-  <sub>5-second verification loop · <a href="https://x.com/surlymochan/status/2119151618323329057">Watch the full 30-second film →</a></sub>
-</p>
 
 ## Current Projects
 
