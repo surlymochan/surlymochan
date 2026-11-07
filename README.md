@@ -9,7 +9,7 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
-[![Phanes — a network is a system](https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/cover.png)](https://github.com/surlymochan/phanes)
+[![Phanes — a network is a system · 10-second looping preview](https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/launch-loop.gif)](https://github.com/surlymochan/phanes)
 
 ▶ [Watch the 30-second launch film →](https://x.com/surlymochan/status/2119151618323329057)
 
