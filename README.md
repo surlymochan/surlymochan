@@ -9,17 +9,9 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
-<a href="https://github.com/surlymochan/phanes"><img src="assets/phanes/launch-loop.gif" alt="Phanes — a network is a system" width="100%"></a>
+[![Phanes — a network is a system](https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/cover.png)](https://github.com/surlymochan/phanes)
 
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
-
-## PR Activity
-
-<!-- PR-CHARTS:START -->
-All pull requests I opened or co-authored — in my own repositories, in nibiru-labs (where my daily work lands under my nibiru-anu alt with me as co-author) and in external projects: total opened (light blue) vs. merged (dark blue), bucketed by Singapore date. Charts refresh hourly.
-
-<p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="98%"></p>
-<!-- PR-CHARTS:END -->
 
 ## Start Here
 
@@ -40,7 +32,7 @@ On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V
 
 ### The Unified Agent Network
 
-- **[Phanes](https://github.com/surlymochan/phanes)** is where OpenBot, swrm (its task dispatcher), and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
+- **[Phanes](https://github.com/surlymochan/phanes)** is where **[volto](https://github.com/surlymochan/volto)** (the planned OpenBot relaunch), swrm (its task dispatcher), and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
 
 ### Harnesses & Delivery Workflows
 
@@ -53,6 +45,14 @@ On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V
 ### Role-based Agent Work
 
 - **[volto](https://github.com/surlymochan/volto)** is the planned future home of the project formerly known as OpenBot. Its direction is a role-based control plane where every bot carries distinct role, memory, and knowledge. The repository currently reserves the name while the relaunch takes shape.
+
+## PR Activity
+
+<!-- PR-CHARTS:START -->
+All pull requests I opened or co-authored — in my own repositories, in nibiru-labs (where my daily work lands under my nibiru-anu alt with me as co-author) and in external projects: total opened (light blue) vs. merged (dark blue), bucketed by Singapore date. Charts refresh hourly.
+
+<p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="98%"></p>
+<!-- PR-CHARTS:END -->
 
 ## Open Source
 
@@ -292,8 +292,8 @@ Merged upstream pull requests: **50** across **17** repositories.
 
 I publish benchmark methods and run records alongside my tools. Results are specific to the tasks, models, and configurations tested; small samples need careful interpretation.
 
-- [OpenFlow benchmarks](https://github.com/surlymochan/openflow#benchmarks-openflow-vs-superpowers-2026-10-17)
-- [OpenSwarm experiments](https://github.com/surlymochan/openswarm/tree/main/bench)
+- [evalid benchmarks](https://github.com/surlymochan/evalid#benchmarks-evalid-vs-superpowers-2026-10-17)
+- [swrm experiments](https://github.com/surlymochan/swrm/tree/main/bench)
 - [Merged upstream PRs](https://github.com/pulls?q=is%3Apr+author%3Asurlymochan+is%3Amerged+-user%3Anibiru-labs+-user%3Asurlymochan)
 
 More tools will appear here as their installation, documentation, and examples are ready for others to use.
