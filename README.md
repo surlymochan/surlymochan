@@ -9,6 +9,47 @@
 
 I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
 
+<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
+
+## Start Here
+
+> **Claimed ≠ verified.** I’m building agent systems where delivery is an evidence trail, not a status update.
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/surlymochan/phanes"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-project-card.jpg" alt="Phanes — one network, one system" width="380"></a>
+      <br>
+      One control plane for goals, execution and evidence-based acceptance.
+      <br><sub><strong>Building / consolidating</strong></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/surlymochan/volto"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/volto-project-card.jpg" alt="volto — roles, memory, identity" width="380"></a>
+      <br>
+      Roles, memory and knowledge for agents that work as a cast.
+      <br><sub><strong>Planned relaunch · implementation forthcoming</strong></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/surlymochan/swrm"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/swrm-project-card.jpg" alt="swrm — dispatch with evidence" width="380"></a>
+      <br>
+      Dispatch heterogeneous coding agents with leases, limits and evidence.
+      <br><sub><strong>Available</strong></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/surlymochan/evalid"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/evalid-project-card.jpg" alt="evalid — claimed is not verified" width="380"></a>
+      <br>
+      Seal a source snapshot and replay verification in isolation.
+      <br><sub><strong>Available</strong></sub>
+    </td>
+  </tr>
+</table>
+
+### A small, public comparison
+
+On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V4.1-Flash, one run per issue, and a 20-minute cap. A solve means the official tests passed: **swrm 5/6 · evalid 4/6 · plain agent 3/6 · Superpowers 2/6**. This is a small project-reported experiment, not a general leaderboard; raw runs and methodology are in the [swrm benchmark](https://github.com/surlymochan/swrm/tree/main/bench/swebench) and [evalid benchmark](https://github.com/surlymochan/evalid/tree/main/bench/swebench).
+
 <p align="center">
   <a href="https://x.com/surlymochan/status/2119151618323329057">
     <img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/phanes-github-demo.gif" alt="Animated verification demo: reject, replay, accept" width="480">
@@ -16,23 +57,6 @@ I build tools for running coding agents, coordinating their work, and checking w
   <br>
   <sub>5-second verification loop · <a href="https://x.com/surlymochan/status/2119151618323329057">Watch the full 30-second film →</a></sub>
 </p>
-
-<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
-
-## Start Here
-
-> **Claimed ≠ verified.** I’m building agent systems where delivery is an evidence trail, not a status update.
-
-| Project | What it is | Status |
-| --- | --- | --- |
-| 🌐 **[Phanes](https://github.com/surlymochan/phanes)** | One control plane for goals and acceptance; distributed execution; evidence-backed self-improvement. Final acceptance must cite independent verification, never a worker’s self-report. | **Building / consolidating** |
-| 🟣 **[volto](https://github.com/surlymochan/volto)** | A planned control plane where each bot has a role, memory, and knowledge, and negotiates work as a cast. | **Name reserved; relaunch in progress** |
-| 🐝 **[swrm](https://github.com/surlymochan/swrm)** | A lease-based dispatcher for heterogeneous coding agents: isolated worktrees, explicit limits, and returned evidence. | **Available** · [Quickstart](https://github.com/surlymochan/swrm#quickstart) |
-| ✅ **[evalid](https://github.com/surlymochan/evalid)** | Seals a coding agent’s test run and replays it from a clean snapshot: claimed ≠ verified. | **Available** · [npm](https://www.npmjs.com/package/@surlymochan/evalid) |
-
-### A small, public comparison
-
-On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V4.1-Flash, one run per issue, and a 20-minute cap. A solve means the official tests passed: **swrm 5/6 · evalid 4/6 · plain agent 3/6 · Superpowers 2/6**. This is a small project-reported experiment, not a general leaderboard; raw runs and methodology are in the [swrm benchmark](https://github.com/surlymochan/swrm/tree/main/bench/swebench) and [evalid benchmark](https://github.com/surlymochan/evalid/tree/main/bench/swebench).
 
 ## Current Projects
 
