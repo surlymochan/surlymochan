@@ -33,9 +33,9 @@ I build tools for running coding agents, coordinating their work, and checking w
 </table>
 
 <table>
-  <thead><tr><th width="140" align="left">Project</th><th width="440" align="left">What it does</th><th width="160" align="left">Status</th></tr></thead>
+  <thead><tr><th width="140" align="left">Project</th><th width="480" align="left">What it does</th><th width="160" align="left">Status</th></tr></thead>
   <tbody>
-    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/phanes">Phanes</a></strong></td><td valign="middle">Unifies goals, distributed execution and evidence-based acceptance.</td><td valign="middle">Consolidating</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/phanes">Phanes</a></strong></td><td valign="middle">Unifies goals, execution and evidence-based acceptance.</td><td valign="middle">Consolidating</td></tr>
     <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/volto">volto</a></strong></td><td valign="middle">Planned roles, memory and knowledge for collaborating agents.</td><td valign="middle">Planned relaunch</td></tr>
     <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/swrm">swrm</a></strong></td><td valign="middle">Dispatches agents with leases, isolated worktrees and limits.</td><td valign="middle">Available</td></tr>
     <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/evalid">evalid</a></strong></td><td valign="middle">Seals source snapshots and replays verification in isolation.</td><td valign="middle">Available</td></tr>
