@@ -33,13 +33,37 @@ I build tools to coordinate coding agents and verify what they deliver.
 
 On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V4.1-Flash, one run per issue, and a 20-minute cap. A solve means the official tests passed: **swrm 5/6 · evalid 4/6 · plain agent 3/6 · Superpowers 2/6**. This is a small project-reported experiment, not a general leaderboard; raw runs and methodology are in the [swrm benchmark](https://github.com/surlymochan/swrm/tree/main/bench/swebench) and [evalid benchmark](https://github.com/surlymochan/evalid/tree/main/bench/swebench).
 
-## PR Activity
+## Contributions & PR Activity
 
 <!-- PR-CHARTS:START -->
-All pull requests I opened or co-authored — in my own repositories, in nibiru-labs (where my daily work lands under my nibiru-anu alt with me as co-author) and in external projects: total opened (light blue) vs. merged (dark blue), bucketed by Singapore date. Charts refresh hourly.
+Opened and merged PRs across my projects, nibiru-labs and upstream repositories, including co-authored work. Monthly totals use Singapore time.
 
 <p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="98%"></p>
 <!-- PR-CHARTS:END -->
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github_dark">
+    <img alt="Contribution timeline for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github" width="100%">
+  </picture>
+</p>
+
+<table>
+  <tr>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
+        <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" width="100%">
+      </picture>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true&theme=github_dark">
+        <img alt="GitHub stats for surlymochan" src="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ## Open Source
 
@@ -234,46 +258,6 @@ Merged upstream pull requests: **50** across **17** repositories.
 <!-- CONTRIB:END -->
 
 </details>
-
-## Contribution Streak
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github_dark">
-    <img alt="Contribution timeline for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=surlymochan&theme=github" width="100%">
-  </picture>
-</p>
-
-<table>
-  <tr>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=github-dark-blue">
-        <img alt="Contribution streak for surlymochan" src="https://streak-stats.demolab.com?user=surlymochan&hide_border=true&theme=default" width="100%">
-      </picture>
-    </td>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true&theme=github_dark">
-        <img alt="GitHub stats for surlymochan" src="https://github-readme-stats-one-bice.vercel.app/api?username=surlymochan&show_icons=true&hide_border=true" width="100%">
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github_dark">
-        <img alt="Most commit language for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=surlymochan&theme=github" width="100%">
-      </picture>
-    </td>
-    <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github_dark&utcOffset=8">
-        <img alt="Productive time for surlymochan" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=surlymochan&theme=github&utcOffset=8" width="100%">
-      </picture>
-    </td>
-  </tr>
-</table>
 
 ## Experiments & Notes
 
