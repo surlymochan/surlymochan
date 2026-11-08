@@ -20,9 +20,6 @@ I build tools for running coding agents, coordinating their work, and checking w
     <td width="50%" align="center" valign="middle"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-collage.jpg" alt="Phanes, volto, swrm and evalid — four-project collage" width="380"></td>
     <td width="50%" align="center" valign="middle">
       <a href="https://x.com/surlymochan/status/2119151618323329057"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-tour.gif" alt="Animated tour of Phanes, volto, swrm and evalid" width="340"></a>
-      <br><sub>31-second tour · all four projects + comparison</sub>
-      <br><sub>volto: planned relaunch; implementation forthcoming</sub>
-      <br><sub><a href="https://x.com/surlymochan/status/2119151618323329057">Watch the launch film →</a></sub>
     </td>
   </tr>
 </table>
