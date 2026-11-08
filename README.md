@@ -7,7 +7,7 @@
 
 **AI agents · Harness engineering · Reliable loops & graphs**
 
-I build tools for running coding agents, coordinating their work, and checking what they deliver. My focus is executable workflows, isolated execution, and experiments others can reproduce.
+I build tools to coordinate coding agents and verify what they deliver.
 
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
 
@@ -22,34 +22,16 @@ I build tools for running coding agents, coordinating their work, and checking w
 <table>
   <thead><tr><th width="140" align="left">Project</th><th width="480" align="left">What it does</th><th width="160" align="left">Status</th></tr></thead>
   <tbody>
-    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/phanes">Phanes</a></strong></td><td valign="middle">Unifies goals, execution and evidence-based acceptance.</td><td valign="middle">Consolidating</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/phanes">Phanes</a></strong></td><td valign="middle">Coordinates goals, distributed execution and verified acceptance.</td><td valign="middle">Consolidating</td></tr>
     <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/volto">volto</a></strong></td><td valign="middle">Planned roles, memory and knowledge for collaborating agents.</td><td valign="middle">Planned relaunch</td></tr>
-    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/swrm">swrm</a></strong></td><td valign="middle">Dispatches agents with leases, isolated worktrees and limits.</td><td valign="middle">Available</td></tr>
-    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/evalid">evalid</a></strong></td><td valign="middle">Seals source snapshots and replays verification in isolation.</td><td valign="middle">Available</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/swrm">swrm</a></strong></td><td valign="middle">Dispatches coding agents with leases, isolated worktrees and limits.</td><td valign="middle">Available</td></tr>
+    <tr><td valign="middle"><strong><a href="https://github.com/surlymochan/evalid">evalid</a></strong></td><td valign="middle">Seals test-run snapshots and replays them to verify results.</td><td valign="middle">Available</td></tr>
   </tbody>
 </table>
 
 ### A small, public comparison
 
 On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V4.1-Flash, one run per issue, and a 20-minute cap. A solve means the official tests passed: **swrm 5/6 · evalid 4/6 · plain agent 3/6 · Superpowers 2/6**. This is a small project-reported experiment, not a general leaderboard; raw runs and methodology are in the [swrm benchmark](https://github.com/surlymochan/swrm/tree/main/bench/swebench) and [evalid benchmark](https://github.com/surlymochan/evalid/tree/main/bench/swebench).
-
-## Current Projects
-
-### The Unified Agent Network
-
-- **[Phanes](https://github.com/surlymochan/phanes)** is where **[volto](https://github.com/surlymochan/volto)** (the planned OpenBot relaunch), swrm (its task dispatcher), and my RSI (recursive self-improvement) work converge into one system: a single control plane holding agent identity, goals, authorization, and final accept/reject decisions; distributed heterogeneous execution scheduled against a unified resource registry (hosts, backends, models, quotas described separately from agents); and an evidence-driven improvement loop that proposes changes from verified run records. Tasks flow through one versioned contract — Goal → Task → Run/Attempt → Evidence — with idempotent dispatch, so a lost receipt or a restarted worker can never silently run the same attempt twice.
-
-### Harnesses & Delivery Workflows
-
-- **[evalid](https://github.com/surlymochan/evalid)** is the runtime verification layer for coding agents. It seals the green test run as a full-tree snapshot (per-file hashes plus a run binding), then replays it from the snapshot — a pass only counts if it reproduces, and test files must hash-match the sealed run. Underneath sits a zero-judge pipeline (SPEC clarification, code-review, and test gates) for developers who want evidence, not self-reports.
-
-### Agent Execution & Orchestration
-
-- **[swrm](https://github.com/surlymochan/swrm)** (formerly OpenSwarm) is the distributed dispatcher for heterogeneous agent work: tasks go out under claim/lease semantics and come back with evidence, routed across Codex, OpenCode, DeepSeek, and opt-in backends. Each task runs in its own worktree with explicit limits.
-
-### Role-based Agent Work
-
-- **[volto](https://github.com/surlymochan/volto)** is the planned future home of the project formerly known as OpenBot. Its direction is a role-based control plane where every bot carries distinct role, memory, and knowledge. The repository currently reserves the name while the relaunch takes shape.
 
 ## PR Activity
 
