@@ -38,7 +38,7 @@ On six selected hard SWE-bench Verified issues, each arm used Pi with DeepSeek-V
 <!-- PR-CHARTS:START -->
 Opened and merged PRs across my projects, nibiru-labs and upstream repositories, including co-authored work. Monthly totals use Singapore time.
 
-<p><img src="assets/pr-charts/pr-monthly.svg" alt="Monthly pull requests: total vs merged" width="98%"></p>
+<p><img src="assets/pr-charts/pr-monthly.svg?v=compact-288" alt="Monthly pull requests: total vs merged" width="98%"></p>
 <!-- PR-CHARTS:END -->
 
 <p>
