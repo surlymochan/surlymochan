@@ -15,14 +15,7 @@ I build tools for running coding agents, coordinating their work, and checking w
 
 > **Claimed ≠ verified.** I’m building agent systems where delivery is an evidence trail, not a status update.
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="middle"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-collage.jpg" alt="Phanes, volto, swrm and evalid — four-project collage" width="380"></td>
-    <td width="50%" align="center" valign="middle">
-      <a href="https://x.com/surlymochan/status/2119151618323329057"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-tour.gif" alt="Animated tour of Phanes, volto, swrm and evalid" width="340"></a>
-    </td>
-  </tr>
-</table>
+<p><a href="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-collage.jpg"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-collage.jpg" alt="Phanes, volto, swrm and evalid — four-project collage" width="53%"></a><a href="https://x.com/surlymochan/status/2119151618323329057"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-tour.gif" alt="Animated tour of Phanes, volto, swrm and evalid" width="47%"></a></p>
 
 <table>
   <thead><tr><th width="140" align="left">Project</th><th width="480" align="left">What it does</th><th width="160" align="left">Status</th></tr></thead>
