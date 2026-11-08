@@ -17,7 +17,7 @@ I build tools to coordinate coding agents and verify what they deliver.
 
 <p><a href="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-collage.jpg"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-collage.jpg" alt="Phanes, volto, swrm and evalid — four-project collage" width="53%"></a><a href="https://x.com/surlymochan/status/2119151618323329057"><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/four-project-tour.gif" alt="Animated tour of Phanes, volto, swrm and evalid" width="47%"></a></p>
 
-<p><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/agent-terminal-demo.gif" alt="Simulated tmux-style session: planner, context, builder and verifier bots — not a live run" width="100%"></p>
+<p><img src="https://raw.githubusercontent.com/surlymochan/surlymochan/main/assets/phanes/agent-terminal-tmux-v2.gif" alt="Simulated tmux-style session: planner, context, builder and verifier bots — not a live run" width="100%"></p>
 
 <table>
   <thead><tr><th width="140" align="left">Project</th><th width="480" align="left">What it does</th><th width="160" align="left">Status</th></tr></thead>
