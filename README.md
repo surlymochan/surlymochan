@@ -80,7 +80,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **50** across **17** repositories.
+Merged upstream pull requests: **52** across **17** repositories.
 
 **code-yeongyu/oh-my-openagent**
 
@@ -103,6 +103,8 @@ Merged upstream pull requests: **50** across **17** repositories.
 
 **code-yeongyu/senpi**
 
+- [senpi#6169](https://github.com/code-yeongyu/senpi/pull/6169) fix(mcp): fence session-less wire-status reads; add per-session fence tests for #3001
+- [senpi#6156](https://github.com/code-yeongyu/senpi/pull/6156) fix(ai): price Codex turns at the sent tier when the backend echoes auto/default
 - [senpi#6149](https://github.com/code-yeongyu/senpi/pull/6149) fix(compaction): accept valid configurationUpdate messages in retained-suffix safety (senpi#8566)
 - [senpi#6146](https://github.com/code-yeongyu/senpi/pull/6146) test(coding-agent): cover the shutdown recovery path per call site (senpi#3067 L5)
 - [senpi#6144](https://github.com/code-yeongyu/senpi/pull/6144) fix(coding-agent): keep the pre-signal error when shutdown recovery throws (senpi#3067 L4)
@@ -163,8 +165,12 @@ Merged upstream pull requests: **50** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (86)</summary>
+<summary>In review (95)</summary>
 
+- [ag-ui-protocol/ag-ui#3340](https://github.com/ag-ui-protocol/ag-ui/pull/3340) fix(kotlin): publish deep state without recursive StateFlow equality
+- [ag-ui-protocol/ag-ui#3339](https://github.com/ag-ui-protocol/ag-ui/pull/3339) docs(langgraph): fix stale dojo run instructions
+- [ag-ui-protocol/ag-ui#3336](https://github.com/ag-ui-protocol/ag-ui/pull/3336) fix(dojo): make mobile chat drag-to-close reachable
+- [ag-ui-protocol/ag-ui#3335](https://github.com/ag-ui-protocol/ag-ui/pull/3335) issue-892 fix(langgraph): pass frontend tools to the model in create_agent() graphs
 - [ag-ui-protocol/ag-ui#3333](https://github.com/ag-ui-protocol/ag-ui/pull/3333) issue-3311 fix(aws-strands): close inline inner tool calls left open by a failing wrapper
 - [ag-ui-protocol/ag-ui#3330](https://github.com/ag-ui-protocol/ag-ui/pull/3330) issue-3213 docs: update CLAUDE.md Python SDK commands from poetry to uv
 - [ag-ui-protocol/ag-ui#3326](https://github.com/ag-ui-protocol/ag-ui/pull/3326) fix(adk-middleware): keep valid inline data when BinaryInputContent also carries id/url
@@ -184,6 +190,9 @@ Merged upstream pull requests: **50** across **17** repositories.
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
+- [code-yeongyu/oh-my-openagent#12802](https://github.com/code-yeongyu/oh-my-openagent/pull/12802) fix(telemetry-core): compare spool file identity as bigints so a Windows swap is not read as the same file (#12462)
+- [code-yeongyu/oh-my-openagent#12793](https://github.com/code-yeongyu/oh-my-openagent/pull/12793) fix(memory-core): pin core.hooksPath so global config cannot skip memory hooks
+- [code-yeongyu/oh-my-openagent#12791](https://github.com/code-yeongyu/oh-my-openagent/pull/12791) fix(omo-senpi): keep the generated installer at mode 0644 and fail the freshness gate on mode drift
 - [code-yeongyu/oh-my-openagent#12742](https://github.com/code-yeongyu/oh-my-openagent/pull/12742) fix(memory-core): persist the resolved NFD spelling in the render record (#12158 item 2)
 - [code-yeongyu/oh-my-openagent#12706](https://github.com/code-yeongyu/oh-my-openagent/pull/12706) fix(omo-senpi): escalate the device-service bootstrap worker to SIGKILL after the deadline (#12267)
 - [code-yeongyu/oh-my-openagent#12623](https://github.com/code-yeongyu/oh-my-openagent/pull/12623) fix(no-raw-tls): list the omo-native omowright runtime in KNOWN_BUILT_RUNTIMES (#12242)
@@ -201,7 +210,9 @@ Merged upstream pull requests: **50** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
-- [code-yeongyu/senpi#6156](https://github.com/code-yeongyu/senpi/pull/6156) fix(ai): price Codex turns at the sent tier when the backend echoes auto/default
+- [code-yeongyu/senpi#6217](https://github.com/code-yeongyu/senpi/pull/6217) fix(rpc): refuse move_session copy ids the parser let through (#5930)
+- [code-yeongyu/senpi#6211](https://github.com/code-yeongyu/senpi/pull/6211) fix(rpc): retry a failed host-token mint before the cached token expires (#5919)
+- [code-yeongyu/senpi#6205](https://github.com/code-yeongyu/senpi/pull/6205) fix(rpc): clear the close grace timer when dispose throws synchronously; give router registry fakes a closeGraceMs (#5929)
 - [code-yeongyu/senpi#6155](https://github.com/code-yeongyu/senpi/pull/6155) fix(ai): renew Cursor logins through the IDE refresh grant (#2919)
 - [code-yeongyu/senpi#6129](https://github.com/code-yeongyu/senpi/pull/6129) fix(agent): skip a session file that vanishes before its header is read; fail listDir when its directory is removed mid-call
 - [code-yeongyu/senpi#6122](https://github.com/code-yeongyu/senpi/pull/6122) fix(rpc): verify_api_key takes a region so a Kimi Code key is checked on its regional host
