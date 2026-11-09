@@ -9,7 +9,7 @@
 
 I build tools to coordinate coding agents and verify what they deliver.
 
-<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C204-blue?logo=github" alt="Pull Requests: 2,204"> <img src="https://img.shields.io/badge/Commits-6%2C986-green?logo=github" alt="Commits: 6,986"></p>
+<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C619-blue?logo=github" alt="Pull Requests: 2,619"> <img src="https://img.shields.io/badge/Commits-7%2C711-green?logo=github" alt="Commits: 7,711"></p>
 
 ## Start Here
 
@@ -69,10 +69,10 @@ Opened and merged PRs across my projects, nibiru-labs and upstream repositories,
 
 Recent merged contributions:
 
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/5203)** — weighted CJK text in compaction cut-point budgets.
-- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pull/11909)** — named the parked-facts cause and run log in /doctor and reported retry outcomes.
-- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pull/11826)** — settled the relaunched cache before asserting on the store dir in cache-persist tests.
-- **[opik](https://github.com/comet-ml/opik/pull/9278)** — accepted repeated identical JSON objects in the TS LLM-judge parser.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6169)** — fenced session-less wire-status reads and added per-session fence tests.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6156)** — priced Codex turns at the sent tier when the backend echoes auto/default.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6144)** — kept the pre-signal error when shutdown recovery throws.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6146)** — covered the shutdown recovery path per call site.
 
 Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
 
