@@ -165,8 +165,9 @@ Merged upstream pull requests: **52** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (95)</summary>
+<summary>In review (105)</summary>
 
+- [ag-ui-protocol/ag-ui#3341](https://github.com/ag-ui-protocol/ag-ui/pull/3341) fix(langgraph): translate CopilotKit emit events to AG-UI events (#1364)
 - [ag-ui-protocol/ag-ui#3340](https://github.com/ag-ui-protocol/ag-ui/pull/3340) fix(kotlin): publish deep state without recursive StateFlow equality
 - [ag-ui-protocol/ag-ui#3339](https://github.com/ag-ui-protocol/ag-ui/pull/3339) docs(langgraph): fix stale dojo run instructions
 - [ag-ui-protocol/ag-ui#3336](https://github.com/ag-ui-protocol/ag-ui/pull/3336) fix(dojo): make mobile chat drag-to-close reachable
@@ -210,6 +211,15 @@ Merged upstream pull requests: **52** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
+- [code-yeongyu/senpi#6284](https://github.com/code-yeongyu/senpi/pull/6284) fix(agent-session): refused engine-turn messages follow the transcript-failure contract
+- [code-yeongyu/senpi#6283](https://github.com/code-yeongyu/senpi/pull/6283) fix(ask-user): gate a partial answer to a multi-question required call
+- [code-yeongyu/senpi#6279](https://github.com/code-yeongyu/senpi/pull/6279) fix(coding-agent): hide console window for win32-reachable spawns (#3965)
+- [code-yeongyu/senpi#6275](https://github.com/code-yeongyu/senpi/pull/6275) fix(coding-agent): model-scoped 403 refusals no longer block the credential slot
+- [code-yeongyu/senpi#6274](https://github.com/code-yeongyu/senpi/pull/6274) fix(coding-agent): stop isolated CLI re-launch replaying the caller's eval entry mode
+- [code-yeongyu/senpi#6264](https://github.com/code-yeongyu/senpi/pull/6264) fix(prompt-preset): render the Haiku 5.5 search-grounding sentence for Anthropic-native search
+- [code-yeongyu/senpi#6255](https://github.com/code-yeongyu/senpi/pull/6255) fix(session-backends): declare the complete bun:sqlite Database in the sqlite-bun package (#5996)
+- [code-yeongyu/senpi#6232](https://github.com/code-yeongyu/senpi/pull/6232) docs(senpi-codemode): qualify process.execPath as a Bun launcher — standalone Bun only
+- [code-yeongyu/senpi#6222](https://github.com/code-yeongyu/senpi/pull/6222) fix(interactive): footer names the serving account when the pin is blocked (#5983)
 - [code-yeongyu/senpi#6217](https://github.com/code-yeongyu/senpi/pull/6217) fix(rpc): refuse move_session copy ids the parser let through (#5930)
 - [code-yeongyu/senpi#6211](https://github.com/code-yeongyu/senpi/pull/6211) fix(rpc): retry a failed host-token mint before the cached token expires (#5919)
 - [code-yeongyu/senpi#6205](https://github.com/code-yeongyu/senpi/pull/6205) fix(rpc): clear the close grace timer when dispose throws synchronously; give router registry fakes a closeGraceMs (#5929)
