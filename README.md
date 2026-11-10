@@ -80,7 +80,30 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **52** across **17** repositories.
+Merged upstream pull requests: **59** across **17** repositories.
+
+**code-yeongyu/senpi**
+
+- [senpi#6301](https://github.com/code-yeongyu/senpi/pull/6301) fix(goal): recover a crashed goal-continuation stop on session start
+- [senpi#6295](https://github.com/code-yeongyu/senpi/pull/6295) fix(coding-agent): release the anthropic-subscription pump on abort (#2974)
+- [senpi#6279](https://github.com/code-yeongyu/senpi/pull/6279) fix(coding-agent): hide console window for win32-reachable spawns (#3965)
+- [senpi#6275](https://github.com/code-yeongyu/senpi/pull/6275) fix(coding-agent): model-scoped 403 refusals no longer block the credential slot
+- [senpi#6211](https://github.com/code-yeongyu/senpi/pull/6211) fix(rpc): retry a failed host-token mint before the cached token expires (#5919)
+- [senpi#6264](https://github.com/code-yeongyu/senpi/pull/6264) fix(prompt-preset): render the Haiku 5.5 search-grounding sentence for Anthropic-native search
+- [senpi#6232](https://github.com/code-yeongyu/senpi/pull/6232) docs(senpi-codemode): qualify process.execPath as a Bun launcher — standalone Bun only
+- [senpi#6169](https://github.com/code-yeongyu/senpi/pull/6169) fix(mcp): fence session-less wire-status reads; add per-session fence tests for #3001
+- [senpi#6156](https://github.com/code-yeongyu/senpi/pull/6156) fix(ai): price Codex turns at the sent tier when the backend echoes auto/default
+- [senpi#6149](https://github.com/code-yeongyu/senpi/pull/6149) fix(compaction): accept valid configurationUpdate messages in retained-suffix safety (senpi#8566)
+- [senpi#6146](https://github.com/code-yeongyu/senpi/pull/6146) test(coding-agent): cover the shutdown recovery path per call site (senpi#3067 L5)
+- [senpi#6144](https://github.com/code-yeongyu/senpi/pull/6144) fix(coding-agent): keep the pre-signal error when shutdown recovery throws (senpi#3067 L4)
+- [senpi#5997](https://github.com/code-yeongyu/senpi/pull/5997) test(kill-guard): stop owned sleepers on process exit, shorten TTL to 60s
+- [senpi#5908](https://github.com/code-yeongyu/senpi/pull/5908) test(coding-agent): drive user bash through default operations in kill-guard test
+- [senpi#5854](https://github.com/code-yeongyu/senpi/pull/5854) fix(codemode): probe kill-guard sleeper liveness without ps
+- [senpi#5700](https://github.com/code-yeongyu/senpi/pull/5700) fix(ask-user): restore dangling questions on startup opens
+- [senpi#5616](https://github.com/code-yeongyu/senpi/pull/5616) fix(claude-account): emit accounts_changed once per account add
+- [senpi#5614](https://github.com/code-yeongyu/senpi/pull/5614) test(coding-agent): run source compile cache teardown even when assertions fail
+- [senpi#5269](https://github.com/code-yeongyu/senpi/pull/5269) fix(retry-fallback): a 503 whose body says "Billing Scope" is not an account usage limit
+- [senpi#5203](https://github.com/code-yeongyu/senpi/pull/5203) fix(coding-agent): weight CJK text in compaction cut-point budgets
 
 **code-yeongyu/oh-my-openagent**
 
@@ -100,22 +123,6 @@ Merged upstream pull requests: **52** across **17** repositories.
 - [oh-my-openagent#11697](https://github.com/code-yeongyu/oh-my-openagent/pull/11697) fix(omo-senpi): pin competing pathspec switches off for side panel git diffs
 - [oh-my-openagent#11237](https://github.com/code-yeongyu/oh-my-openagent/pull/11237) feat(hooks): persist Momus review verdicts next to the plan
 - [oh-my-openagent#11228](https://github.com/code-yeongyu/oh-my-openagent/pull/11228) fix(omo-senpi): make init-deep committed mode self-contained
-
-**code-yeongyu/senpi**
-
-- [senpi#6169](https://github.com/code-yeongyu/senpi/pull/6169) fix(mcp): fence session-less wire-status reads; add per-session fence tests for #3001
-- [senpi#6156](https://github.com/code-yeongyu/senpi/pull/6156) fix(ai): price Codex turns at the sent tier when the backend echoes auto/default
-- [senpi#6149](https://github.com/code-yeongyu/senpi/pull/6149) fix(compaction): accept valid configurationUpdate messages in retained-suffix safety (senpi#8566)
-- [senpi#6146](https://github.com/code-yeongyu/senpi/pull/6146) test(coding-agent): cover the shutdown recovery path per call site (senpi#3067 L5)
-- [senpi#6144](https://github.com/code-yeongyu/senpi/pull/6144) fix(coding-agent): keep the pre-signal error when shutdown recovery throws (senpi#3067 L4)
-- [senpi#5997](https://github.com/code-yeongyu/senpi/pull/5997) test(kill-guard): stop owned sleepers on process exit, shorten TTL to 60s
-- [senpi#5908](https://github.com/code-yeongyu/senpi/pull/5908) test(coding-agent): drive user bash through default operations in kill-guard test
-- [senpi#5854](https://github.com/code-yeongyu/senpi/pull/5854) fix(codemode): probe kill-guard sleeper liveness without ps
-- [senpi#5700](https://github.com/code-yeongyu/senpi/pull/5700) fix(ask-user): restore dangling questions on startup opens
-- [senpi#5616](https://github.com/code-yeongyu/senpi/pull/5616) fix(claude-account): emit accounts_changed once per account add
-- [senpi#5614](https://github.com/code-yeongyu/senpi/pull/5614) test(coding-agent): run source compile cache teardown even when assertions fail
-- [senpi#5269](https://github.com/code-yeongyu/senpi/pull/5269) fix(retry-fallback): a 503 whose body says "Billing Scope" is not an account usage limit
-- [senpi#5203](https://github.com/code-yeongyu/senpi/pull/5203) fix(coding-agent): weight CJK text in compaction cut-point budgets
 
 **Apache SkyWalking**
 
@@ -211,17 +218,17 @@ Merged upstream pull requests: **52** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
+- [code-yeongyu/senpi#6343](https://github.com/code-yeongyu/senpi/pull/6343) fix(coding-agent): estimate context after a model switch instead of showing stale usage
+- [code-yeongyu/senpi#6333](https://github.com/code-yeongyu/senpi/pull/6333) fix(anthropic-subscription): read the prompt-cache lifetime from loaded settings files (senpi#2988)
+- [code-yeongyu/senpi#6330](https://github.com/code-yeongyu/senpi/pull/6330) fix(coding-agent): account stickiness follow-ups for anthropic subscription
+- [code-yeongyu/senpi#6323](https://github.com/code-yeongyu/senpi/pull/6323) fix: Ultrafast follow-ups from #2975
+- [code-yeongyu/senpi#6320](https://github.com/code-yeongyu/senpi/pull/6320) fix(coding-agent): log rotation follow-ups from #2977
 - [code-yeongyu/senpi#6284](https://github.com/code-yeongyu/senpi/pull/6284) fix(agent-session): refused engine-turn messages follow the transcript-failure contract
 - [code-yeongyu/senpi#6283](https://github.com/code-yeongyu/senpi/pull/6283) fix(ask-user): gate a partial answer to a multi-question required call
-- [code-yeongyu/senpi#6279](https://github.com/code-yeongyu/senpi/pull/6279) fix(coding-agent): hide console window for win32-reachable spawns (#3965)
-- [code-yeongyu/senpi#6275](https://github.com/code-yeongyu/senpi/pull/6275) fix(coding-agent): model-scoped 403 refusals no longer block the credential slot
 - [code-yeongyu/senpi#6274](https://github.com/code-yeongyu/senpi/pull/6274) fix(coding-agent): stop isolated CLI re-launch replaying the caller's eval entry mode
-- [code-yeongyu/senpi#6264](https://github.com/code-yeongyu/senpi/pull/6264) fix(prompt-preset): render the Haiku 5.5 search-grounding sentence for Anthropic-native search
 - [code-yeongyu/senpi#6255](https://github.com/code-yeongyu/senpi/pull/6255) fix(session-backends): declare the complete bun:sqlite Database in the sqlite-bun package (#5996)
-- [code-yeongyu/senpi#6232](https://github.com/code-yeongyu/senpi/pull/6232) docs(senpi-codemode): qualify process.execPath as a Bun launcher — standalone Bun only
 - [code-yeongyu/senpi#6222](https://github.com/code-yeongyu/senpi/pull/6222) fix(interactive): footer names the serving account when the pin is blocked (#5983)
 - [code-yeongyu/senpi#6217](https://github.com/code-yeongyu/senpi/pull/6217) fix(rpc): refuse move_session copy ids the parser let through (#5930)
-- [code-yeongyu/senpi#6211](https://github.com/code-yeongyu/senpi/pull/6211) fix(rpc): retry a failed host-token mint before the cached token expires (#5919)
 - [code-yeongyu/senpi#6205](https://github.com/code-yeongyu/senpi/pull/6205) fix(rpc): clear the close grace timer when dispose throws synchronously; give router registry fakes a closeGraceMs (#5929)
 - [code-yeongyu/senpi#6155](https://github.com/code-yeongyu/senpi/pull/6155) fix(ai): renew Cursor logins through the IDE refresh grant (#2919)
 - [code-yeongyu/senpi#6129](https://github.com/code-yeongyu/senpi/pull/6129) fix(agent): skip a session file that vanishes before its header is read; fail listDir when its directory is removed mid-call
