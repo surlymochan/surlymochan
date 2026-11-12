@@ -1,13 +1,13 @@
 # Hi, I'm Nick 👋
 
-**Follow along:** I share what breaks (and what fixes it) putting AI agents into production — [**@surlymochan on X**](https://x.com/surlymochan) · [Contra](https://contra.com/chao_chen_p9d4xc5f)
+**Apache SkyWalking committer** · I build tools to coordinate coding agents and verify what they deliver — and I contribute fixes upstream to the agent tools I build on (senpi, oh-my-openagent, opik, llama_index).
+
+**Follow along:** I share what breaks (and what fixes it) putting AI agents into production — [**@surlymochan on X**](https://x.com/surlymochan) · [Contra](https://contra.com/chao_chen_p9d4xc5f) · Building agent infra too? **Follow me here** — everything below is built in the open.
 
 > ⭐ **If evalid or swrm saves you time, a star is the best way to support the work — I'm pushing for 100 stars this month.**
 
 
 **AI agents · Harness engineering · Reliable loops & graphs**
-
-I build tools to coordinate coding agents and verify what they deliver.
 
 <p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C619-blue?logo=github" alt="Pull Requests: 2,619"> <img src="https://img.shields.io/badge/Commits-7%2C711-green?logo=github" alt="Commits: 7,711"></p>
 
