@@ -179,7 +179,7 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (101)</summary>
+<summary>In review (104)</summary>
 
 - [ag-ui-protocol/ag-ui#3362](https://github.com/ag-ui-protocol/ag-ui/pull/3362) fix(adk-middleware): key text-less tool-call history messages by the first tool call id (#3254)
 - [ag-ui-protocol/ag-ui#3349](https://github.com/ag-ui-protocol/ag-ui/pull/3349) fix(adk-middleware): emit backend tool calls arriving with an LRO call (#3300)
@@ -230,6 +230,9 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
+- [code-yeongyu/senpi#6503](https://github.com/code-yeongyu/senpi/pull/6503) fix(ai): decode JSON-encoded tool arguments for Records, typeless unions and protocol-validated schemas
+- [code-yeongyu/senpi#6477](https://github.com/code-yeongyu/senpi/pull/6477) fix(terminal): clear the auto-reap age after a failed reap; keep a parked reap_failed
+- [code-yeongyu/senpi#6410](https://github.com/code-yeongyu/senpi/pull/6410) fix(coding-agent): refuse sync dequeue/edit of a durable queued input (#4087)
 - [code-yeongyu/senpi#6330](https://github.com/code-yeongyu/senpi/pull/6330) fix(coding-agent): account stickiness follow-ups for anthropic subscription
 - [code-yeongyu/senpi#6320](https://github.com/code-yeongyu/senpi/pull/6320) fix(coding-agent): log rotation follow-ups from #2977
 - [code-yeongyu/senpi#6283](https://github.com/code-yeongyu/senpi/pull/6283) fix(ask-user): gate a partial answer to a multi-question required call
