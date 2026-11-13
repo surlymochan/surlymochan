@@ -80,7 +80,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **66** across **17** repositories.
+Merged upstream pull requests: **67** across **17** repositories.
 
 **code-yeongyu/senpi**
 
@@ -162,13 +162,14 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [opik#9278](https://github.com/comet-ml/opik/pull/9278) issue-8590 SDK fix: accept repeated identical JSON objects in TS LLM-judge parser
 - [opik#9271](https://github.com/comet-ml/opik/pull/9271) issue-8868 SDK fix: treat blank OPIK_API_KEY as unconfigured
 
+**Jenqyang/Awesome-AI-Agents**
+
+- [Awesome-AI-Agents#688](https://github.com/Jenqyang/Awesome-AI-Agents/pull/688) Add OpenFlow to Tools
+- [Awesome-AI-Agents#687](https://github.com/Jenqyang/Awesome-AI-Agents/pull/687) Add OpenSwarm to Multi-Agent Task Solver Projects
+
 **infiniflow/ragflow**
 
 - [ragflow#21110](https://github.com/infiniflow/ragflow/pull/21110) fix(web): accept null table_column_* fields in dataset settings form
-
-**Jenqyang/Awesome-AI-Agents**
-
-- [Awesome-AI-Agents#687](https://github.com/Jenqyang/Awesome-AI-Agents/pull/687) Add OpenSwarm to Multi-Agent Task Solver Projects
 
 **modelcontextprotocol/go-sdk**
 
@@ -179,8 +180,10 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (104)</summary>
+<summary>In review (109)</summary>
 
+- [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
+- [ag-ui-protocol/ag-ui#3388](https://github.com/ag-ui-protocol/ag-ui/pull/3388) fix(langgraph): skip pinned-skill HumanMessages in MESSAGES_SNAPSHOT (#3343)
 - [ag-ui-protocol/ag-ui#3362](https://github.com/ag-ui-protocol/ag-ui/pull/3362) fix(adk-middleware): key text-less tool-call history messages by the first tool call id (#3254)
 - [ag-ui-protocol/ag-ui#3349](https://github.com/ag-ui-protocol/ag-ui/pull/3349) fix(adk-middleware): emit backend tool calls arriving with an LRO call (#3300)
 - [ag-ui-protocol/ag-ui#3341](https://github.com/ag-ui-protocol/ag-ui/pull/3341) fix(langgraph): translate CopilotKit emit events to AG-UI events (#1364)
@@ -207,6 +210,9 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
+- [code-yeongyu/oh-my-openagent#13321](https://github.com/code-yeongyu/oh-my-openagent/pull/13321) fix(omo-opencode): credential lock home Windows rooted-path check and real Windows run
+- [code-yeongyu/oh-my-openagent#13320](https://github.com/code-yeongyu/oh-my-openagent/pull/13320) fix(senpi-task): report the restart-needed engine refusal on the resume path
+- [code-yeongyu/oh-my-openagent#13311](https://github.com/code-yeongyu/oh-my-openagent/pull/13311) test(senpi-task): fail the tripwire marker test fast naming the hung stage
 - [code-yeongyu/oh-my-openagent#13115](https://github.com/code-yeongyu/oh-my-openagent/pull/13115) fix(senpi-task): name the designated models when the host cannot hold the chain
 - [code-yeongyu/oh-my-openagent#13088](https://github.com/code-yeongyu/oh-my-openagent/pull/13088) fix(senpi-task): designated-chain follow-ups from #12761 review (#12778)
 - [code-yeongyu/oh-my-openagent#13075](https://github.com/code-yeongyu/oh-my-openagent/pull/13075) fix(thread): send remote open_session on a short-lived connection
@@ -230,6 +236,7 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
+- [code-yeongyu/senpi#6586](https://github.com/code-yeongyu/senpi/pull/6586) fix(scripts): read Claude model ids from catalog row id field
 - [code-yeongyu/senpi#6503](https://github.com/code-yeongyu/senpi/pull/6503) fix(ai): decode JSON-encoded tool arguments for Records, typeless unions and protocol-validated schemas
 - [code-yeongyu/senpi#6477](https://github.com/code-yeongyu/senpi/pull/6477) fix(terminal): clear the auto-reap age after a failed reap; keep a parked reap_failed
 - [code-yeongyu/senpi#6410](https://github.com/code-yeongyu/senpi/pull/6410) fix(coding-agent): refuse sync dequeue/edit of a durable queued input (#4087)
@@ -255,7 +262,6 @@ Merged upstream pull requests: **66** across **17** repositories.
 - [filipecalegario/awesome-vibe-coding#392](https://github.com/filipecalegario/awesome-vibe-coding/pull/392) Add OpenFlow
 - [huggingface/smolagents#3020](https://github.com/huggingface/smolagents/pull/3020) Only rewrite real final_answer assignments in fix_final_answer_code
 - [jamesmurdza/awesome-ai-devtools#1256](https://github.com/jamesmurdza/awesome-ai-devtools/pull/1256) Add OpenFlow to Configuration & Context Management
-- [Jenqyang/Awesome-AI-Agents#688](https://github.com/Jenqyang/Awesome-AI-Agents/pull/688) Add OpenFlow to Tools
 - [mahseema/awesome-ai-tools#2543](https://github.com/mahseema/awesome-ai-tools/pull/2543) Add Openflow to Code
 - [modelcontextprotocol/typescript-sdk#3050](https://github.com/modelcontextprotocol/typescript-sdk/pull/3050) fix(core): expand RFC 6570 list and multi-variable expressions correctly
 - [nightly-labs/openbot#4383](https://github.com/nightly-labs/openbot/pull/4383) test(auth-api): refuse two account migrations with the same number
