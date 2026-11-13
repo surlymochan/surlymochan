@@ -66,12 +66,12 @@
 <text x="728.6" y="192.7" font-size="10" fill="#57606a" text-anchor="middle">939</text>
 <text x="717.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Oct</text>
 <text x="717.0" y="400" font-size="10.5" fill="#57606a" text-anchor="middle">2026</text>
-<rect x="760.9" y="97.6" width="21.1" height="274.4" fill="#9ecbff"/>
-<text x="771.4" y="93.6" font-size="10" fill="#57606a" text-anchor="middle">1470</text>
-<rect x="784.0" y="153.6" width="21.1" height="218.4" fill="#0969da"/>
-<text x="794.6" y="149.6" font-size="10" fill="#57606a" text-anchor="middle">1170</text>
+<rect x="760.9" y="93.9" width="21.1" height="278.1" fill="#9ecbff"/>
+<text x="771.4" y="89.9" font-size="10" fill="#57606a" text-anchor="middle">1490</text>
+<rect x="784.0" y="149.9" width="21.1" height="222.1" fill="#0969da"/>
+<text x="794.6" y="145.9" font-size="10" fill="#57606a" text-anchor="middle">1190</text>
 <text x="783.0" y="388" font-size="10.5" fill="#57606a" text-anchor="middle">Nov</text>
 <text x="783.0" y="400" font-size="10.5" fill="#57606a" text-anchor="middle">2026</text>
 <text x="783.0" y="412" font-size="10.5" fill="#57606a" text-anchor="middle">(so far)</text>
-<text x="860" y="420" font-size="10.5" fill="#57606a" text-anchor="end">Updated Nov 13, 2026 14:05 SGT · Source: GitHub API</text>
+<text x="860" y="420" font-size="10.5" fill="#57606a" text-anchor="end">Updated Nov 13, 2026 15:05 SGT · Source: GitHub API</text>
 </svg>
