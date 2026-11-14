@@ -180,7 +180,7 @@ Merged upstream pull requests: **67** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (109)</summary>
+<summary>In review (110)</summary>
 
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
 - [ag-ui-protocol/ag-ui#3388](https://github.com/ag-ui-protocol/ag-ui/pull/3388) fix(langgraph): skip pinned-skill HumanMessages in MESSAGES_SNAPSHOT (#3343)
@@ -210,6 +210,7 @@ Merged upstream pull requests: **67** across **17** repositories.
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
+- [code-yeongyu/oh-my-openagent#13377](https://github.com/code-yeongyu/oh-my-openagent/pull/13377) fix(release): gate publish on the pinned device service being served (#13062)
 - [code-yeongyu/oh-my-openagent#13321](https://github.com/code-yeongyu/oh-my-openagent/pull/13321) fix(omo-opencode): credential lock home Windows rooted-path check and real Windows run
 - [code-yeongyu/oh-my-openagent#13320](https://github.com/code-yeongyu/oh-my-openagent/pull/13320) fix(senpi-task): report the restart-needed engine refusal on the resume path
 - [code-yeongyu/oh-my-openagent#13311](https://github.com/code-yeongyu/oh-my-openagent/pull/13311) test(senpi-task): fail the tripwire marker test fast naming the hung stage
