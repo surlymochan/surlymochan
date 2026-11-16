@@ -80,7 +80,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **67** across **17** repositories.
+Merged upstream pull requests: **68** across **17** repositories.
 
 **code-yeongyu/senpi**
 
@@ -114,6 +114,7 @@ Merged upstream pull requests: **67** across **17** repositories.
 
 **code-yeongyu/oh-my-openagent**
 
+- [oh-my-openagent#13075](https://github.com/code-yeongyu/oh-my-openagent/pull/13075) fix(thread): send remote open_session on a short-lived connection
 - [oh-my-openagent#12545](https://github.com/code-yeongyu/oh-my-openagent/pull/12545) fix(memory-core): assert the timeout-diagnostics contract, not the host's snapshot
 - [oh-my-openagent#12544](https://github.com/code-yeongyu/oh-my-openagent/pull/12544) fix(omo-senpi): name the onboarding skill instead of its install path
 - [oh-my-openagent#12568](https://github.com/code-yeongyu/oh-my-openagent/pull/12568) fix(memory-sync): refuse non-regular leaf files on landing
@@ -180,7 +181,7 @@ Merged upstream pull requests: **67** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (110)</summary>
+<summary>In review (108)</summary>
 
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
 - [ag-ui-protocol/ag-ui#3388](https://github.com/ag-ui-protocol/ag-ui/pull/3388) fix(langgraph): skip pinned-skill HumanMessages in MESSAGES_SNAPSHOT (#3343)
@@ -216,7 +217,6 @@ Merged upstream pull requests: **67** across **17** repositories.
 - [code-yeongyu/oh-my-openagent#13311](https://github.com/code-yeongyu/oh-my-openagent/pull/13311) test(senpi-task): fail the tripwire marker test fast naming the hung stage
 - [code-yeongyu/oh-my-openagent#13115](https://github.com/code-yeongyu/oh-my-openagent/pull/13115) fix(senpi-task): name the designated models when the host cannot hold the chain
 - [code-yeongyu/oh-my-openagent#13088](https://github.com/code-yeongyu/oh-my-openagent/pull/13088) fix(senpi-task): designated-chain follow-ups from #12761 review (#12778)
-- [code-yeongyu/oh-my-openagent#13075](https://github.com/code-yeongyu/oh-my-openagent/pull/13075) fix(thread): send remote open_session on a short-lived connection
 - [code-yeongyu/oh-my-openagent#12802](https://github.com/code-yeongyu/oh-my-openagent/pull/12802) fix(telemetry-core): compare spool file identity as bigints so a Windows swap is not read as the same file (#12462)
 - [code-yeongyu/oh-my-openagent#12793](https://github.com/code-yeongyu/oh-my-openagent/pull/12793) fix(memory-core): pin core.hooksPath so global config cannot skip memory hooks
 - [code-yeongyu/oh-my-openagent#12791](https://github.com/code-yeongyu/oh-my-openagent/pull/12791) fix(omo-senpi): keep the generated installer at mode 0644 and fail the freshness gate on mode drift
@@ -261,7 +261,6 @@ Merged upstream pull requests: **67** across **17** repositories.
 - [cursor/plugins#1148](https://github.com/cursor/plugins/pull/1148) fix(pstack): satisfy strict typecheck in statechart run.ts and CLI tests
 - [e2b-dev/awesome-ai-agents#1855](https://github.com/e2b-dev/awesome-ai-agents/pull/1855) Add openswarm
 - [filipecalegario/awesome-vibe-coding#392](https://github.com/filipecalegario/awesome-vibe-coding/pull/392) Add OpenFlow
-- [huggingface/smolagents#3020](https://github.com/huggingface/smolagents/pull/3020) Only rewrite real final_answer assignments in fix_final_answer_code
 - [jamesmurdza/awesome-ai-devtools#1256](https://github.com/jamesmurdza/awesome-ai-devtools/pull/1256) Add OpenFlow to Configuration & Context Management
 - [mahseema/awesome-ai-tools#2543](https://github.com/mahseema/awesome-ai-tools/pull/2543) Add Openflow to Code
 - [modelcontextprotocol/typescript-sdk#3050](https://github.com/modelcontextprotocol/typescript-sdk/pull/3050) fix(core): expand RFC 6570 list and multi-variable expressions correctly
