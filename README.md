@@ -9,7 +9,7 @@
 
 **AI agents · Harness engineering · Reliable loops & graphs**
 
-<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-2%2C619-blue?logo=github" alt="Pull Requests: 2,619"> <img src="https://img.shields.io/badge/Commits-7%2C711-green?logo=github" alt="Commits: 7,711"></p>
+<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-3%2C577-blue?logo=github" alt="Pull Requests: 3,577"> <img src="https://img.shields.io/badge/Commits-9%2C755-green?logo=github" alt="Commits: 9,755"></p>
 
 ## Start Here
 
@@ -69,10 +69,10 @@ Opened and merged PRs across my projects, nibiru-labs and upstream repositories,
 
 Recent merged contributions:
 
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6169)** — fenced session-less wire-status reads and added per-session fence tests.
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6156)** — priced Codex turns at the sent tier when the backend echoes auto/default.
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6144)** — kept the pre-signal error when shutdown recovery throws.
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6146)** — covered the shutdown recovery path per call site.
+- **[Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/688)** — listed OpenFlow in the Tools section.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6255)** — declared the complete bun:sqlite Database in the sqlite-bun package.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6222)** — named the serving account in the footer when the pin is blocked.
+- **[senpi](https://github.com/code-yeongyu/senpi/pull/6343)** — estimated context after a model switch instead of showing stale usage.
 
 Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
 
