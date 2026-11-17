@@ -80,10 +80,11 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **68** across **17** repositories.
+Merged upstream pull requests: **70** across **18** repositories.
 
 **code-yeongyu/senpi**
 
+- [senpi#6118](https://github.com/code-yeongyu/senpi/pull/6118) fix(coding-agent): read process start times in UTC so DST fall-back hours keep live holders (senpi#3067 L1)
 - [senpi#6343](https://github.com/code-yeongyu/senpi/pull/6343) fix(coding-agent): estimate context after a model switch instead of showing stale usage
 - [senpi#6333](https://github.com/code-yeongyu/senpi/pull/6333) fix(anthropic-subscription): read the prompt-cache lifetime from loaded settings files (senpi#2988)
 - [senpi#6323](https://github.com/code-yeongyu/senpi/pull/6323) fix: Ultrafast follow-ups from #2975
@@ -168,6 +169,10 @@ Merged upstream pull requests: **68** across **17** repositories.
 - [Awesome-AI-Agents#688](https://github.com/Jenqyang/Awesome-AI-Agents/pull/688) Add OpenFlow to Tools
 - [Awesome-AI-Agents#687](https://github.com/Jenqyang/Awesome-AI-Agents/pull/687) Add OpenSwarm to Multi-Agent Task Solver Projects
 
+**agno-agi/agno**
+
+- [agno#11135](https://github.com/agno-agi/agno/pull/11135) fix: report MCPTools.connect() outcome and cleanup on CancelledError
+
 **infiniflow/ragflow**
 
 - [ragflow#21110](https://github.com/infiniflow/ragflow/pull/21110) fix(web): accept null table_column_* fields in dataset settings form
@@ -181,7 +186,7 @@ Merged upstream pull requests: **68** across **17** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (108)</summary>
+<summary>In review (107)</summary>
 
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
 - [ag-ui-protocol/ag-ui#3388](https://github.com/ag-ui-protocol/ag-ui/pull/3388) fix(langgraph): skip pinned-skill HumanMessages in MESSAGES_SNAPSHOT (#3343)
@@ -249,7 +254,6 @@ Merged upstream pull requests: **68** across **17** repositories.
 - [code-yeongyu/senpi#6155](https://github.com/code-yeongyu/senpi/pull/6155) fix(ai): renew Cursor logins through the IDE refresh grant (#2919)
 - [code-yeongyu/senpi#6129](https://github.com/code-yeongyu/senpi/pull/6129) fix(agent): skip a session file that vanishes before its header is read; fail listDir when its directory is removed mid-call
 - [code-yeongyu/senpi#6122](https://github.com/code-yeongyu/senpi/pull/6122) fix(rpc): verify_api_key takes a region so a Kimi Code key is checked on its regional host
-- [code-yeongyu/senpi#6118](https://github.com/code-yeongyu/senpi/pull/6118) fix(coding-agent): read process start times in UTC so DST fall-back hours keep live holders (senpi#3067 L1)
 - [code-yeongyu/senpi#6103](https://github.com/code-yeongyu/senpi/pull/6103) fix(fmt): resolve bun without a shell so spaced paths stay one argument; fix stale releasability comment (#5599)
 - [code-yeongyu/senpi#5914](https://github.com/code-yeongyu/senpi/pull/5914) test(coding-agent): skip grep search step when no grep engine is available
 - [code-yeongyu/senpi#5517](https://github.com/code-yeongyu/senpi/pull/5517) fix(hooks): skip the trust-state lock when the state file is absent
