@@ -80,7 +80,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **70** across **18** repositories.
+Merged upstream pull requests: **72** across **19** repositories.
 
 **code-yeongyu/senpi**
 
@@ -159,6 +159,11 @@ Merged upstream pull requests: **70** across **18** repositories.
 - [openbot#2576](https://github.com/nightly-labs/openbot/pull/2576) Keep emoji whole when a Live Activity cuts a code span
 - [openbot#2578](https://github.com/nightly-labs/openbot/pull/2578) Report an MCP sign-in that cannot start
 
+**alvinunreal/oh-my-opencode-slim**
+
+- [oh-my-opencode-slim#1932](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1932) fix(fallback): classify the claude-agent weekly subscription limit as failover-eligible (#1918)
+- [oh-my-opencode-slim#1931](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1931) fix(v2): admit a moved child session via its parent directory (#1915)
+
 **comet-ml/opik**
 
 - [opik#9278](https://github.com/comet-ml/opik/pull/9278) issue-8590 SDK fix: accept repeated identical JSON objects in TS LLM-judge parser
@@ -186,7 +191,7 @@ Merged upstream pull requests: **70** across **18** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (107)</summary>
+<summary>In review (110)</summary>
 
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
 - [ag-ui-protocol/ag-ui#3388](https://github.com/ag-ui-protocol/ag-ui/pull/3388) fix(langgraph): skip pinned-skill HumanMessages in MESSAGES_SNAPSHOT (#3343)
@@ -211,8 +216,10 @@ Merged upstream pull requests: **70** across **18** repositories.
 - [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
 - [anomalyco/opencode#57237](https://github.com/anomalyco/opencode/pull/57237) fix(cli): expose retryable ACP plugin activation readiness errors
 - [anomalyco/opencode#57236](https://github.com/anomalyco/opencode/pull/57236) fix(core): retry truncated compaction with less history
-- [ARUNAGIRINATHAN-K/awesome-ai-agents-2026#494](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026/pull/494) Add OpenFlow to Coding Agents
+- [ARUNAGIRINATHAN-K/ai-agent-registry#494](https://github.com/ARUNAGIRINATHAN-K/ai-agent-registry/pull/494) Add OpenFlow to Coding Agents
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
+- [BerriAI/litellm#52503](https://github.com/BerriAI/litellm/pull/52503) fix(langfuse): preserve prompt label and version in Langfuse logging
+- [BerriAI/litellm#52475](https://github.com/BerriAI/litellm/pull/52475) fix(proxy): refuse callback delete when the config file also lists it
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
 - [browser-use/browser-use#6132](https://github.com/browser-use/browser-use/pull/6132) fix(llm): keep Field descriptions when flattening $ref in optimized schemas
 - [caramaschiHG/awesome-ai-agents-2026#692](https://github.com/caramaschiHG/awesome-ai-agents-2026/pull/692) Add Openflow to Task and Workflow Agents (Automation)
@@ -287,6 +294,7 @@ Merged upstream pull requests: **70** across **18** repositories.
 - [openclaw/openclaw#175933](https://github.com/openclaw/openclaw/pull/175933) docs(macos): explain the Bun local-network and Git prompts on first launch
 - [RoggeOhta/awesome-codex-cli#487](https://github.com/RoggeOhta/awesome-codex-cli/pull/487) Add openflow to Cross-Agent Tools
 - [rohitg00/awesome-claude-code-toolkit#874](https://github.com/rohitg00/awesome-claude-code-toolkit/pull/874) Add openflow to the Ecosystem table
+- [run-llama/llama_index#24317](https://github.com/run-llama/llama_index/pull/24317) fix(azure-openai): pass only azure_ad_token_provider to the SDK when configured
 - [run-llama/llama_index#24046](https://github.com/run-llama/llama_index/pull/24046) fix(core): pass callback_manager to response synthesizer in RetrieverQueryEngine.from_args
 - [run-llama/llama_index#24007](https://github.com/run-llama/llama_index/pull/24007) fix(core): return no nodes from SimplePropertyGraphStore.get for empty ids
 - [run-llama/llama_index#23992](https://github.com/run-llama/llama_index/pull/23992) fix(core): let as_retriever kwargs override index defaults
