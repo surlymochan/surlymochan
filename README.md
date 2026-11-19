@@ -191,8 +191,9 @@ Merged upstream pull requests: **72** across **19** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (110)</summary>
+<summary>In review (113)</summary>
 
+- [ag-ui-protocol/ag-ui#3418](https://github.com/ag-ui-protocol/ag-ui/pull/3418) fix(dotnet): preserve approval-wrapped tool calls in AsAGUIMessages
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
 - [ag-ui-protocol/ag-ui#3388](https://github.com/ag-ui-protocol/ag-ui/pull/3388) fix(langgraph): skip pinned-skill HumanMessages in MESSAGES_SNAPSHOT (#3343)
 - [ag-ui-protocol/ag-ui#3362](https://github.com/ag-ui-protocol/ag-ui/pull/3362) fix(adk-middleware): key text-less tool-call history messages by the first tool call id (#3254)
@@ -211,13 +212,15 @@ Merged upstream pull requests: **72** across **19** repositories.
 - [ag-ui-protocol/ag-ui#3258](https://github.com/ag-ui-protocol/ag-ui/pull/3258) fix(adk-middleware): filter rewound events in adk_events_to_messages
 - [ag-ui-protocol/ag-ui#3241](https://github.com/ag-ui-protocol/ag-ui/pull/3241) fix(client): give interrupts without expiresAt a bounded default expiry
 - [ag-ui-protocol/ag-ui#3235](https://github.com/ag-ui-protocol/ag-ui/pull/3235) fix(mastra): stream frontend tool answers under the stored message's continuation id
-- [ai-boost/awesome-harness-engineering#345](https://github.com/ai-boost/awesome-harness-engineering/pull/345) Add openflow to Verification & CI Integration
 - [ai-for-developers/awesome-ai-coding-tools#1006](https://github.com/ai-for-developers/awesome-ai-coding-tools/pull/1006) Add OpenFlow to Testing and QA
+- [alvinunreal/oh-my-opencode-slim#1939](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1939) fix(fallback): fall back to live chains when a pinned snapshot has no chain for the agent (#1927)
 - [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
 - [anomalyco/opencode#57237](https://github.com/anomalyco/opencode/pull/57237) fix(cli): expose retryable ACP plugin activation readiness errors
 - [anomalyco/opencode#57236](https://github.com/anomalyco/opencode/pull/57236) fix(core): retry truncated compaction with less history
 - [ARUNAGIRINATHAN-K/ai-agent-registry#494](https://github.com/ARUNAGIRINATHAN-K/ai-agent-registry/pull/494) Add OpenFlow to Coding Agents
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
+- [BerriAI/litellm#52537](https://github.com/BerriAI/litellm/pull/52537) fix(token_counter): do not upscale short side in resize_image_high_res
+- [BerriAI/litellm#52531](https://github.com/BerriAI/litellm/pull/52531) fix(fal_ai): raise BadRequestError for image edits with no input image
 - [BerriAI/litellm#52503](https://github.com/BerriAI/litellm/pull/52503) fix(langfuse): preserve prompt label and version in Langfuse logging
 - [BerriAI/litellm#52475](https://github.com/BerriAI/litellm/pull/52475) fix(proxy): refuse callback delete when the config file also lists it
 - [bradAGI/awesome-cli-coding-agents#516](https://github.com/bradAGI/awesome-cli-coding-agents/pull/516) Add openflow to Orchestrators & autonomous loops
