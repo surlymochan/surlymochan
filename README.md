@@ -80,7 +80,7 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **72** across **19** repositories.
+Merged upstream pull requests: **73** across **19** repositories.
 
 **code-yeongyu/senpi**
 
@@ -153,16 +153,17 @@ Merged upstream pull requests: **72** across **19** repositories.
 - [OpenSpec#2114](https://github.com/Fission-AI/OpenSpec/pull/2114) fix(verify): match REMOVED baselines by exact normalized name
 - [OpenSpec#2103](https://github.com/Fission-AI/OpenSpec/pull/2103) fix(security): replace fast-glob with tinyglobby to drop braces
 
+**alvinunreal/oh-my-opencode-slim**
+
+- [oh-my-opencode-slim#1939](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1939) fix(fallback): fall back to live chains when a pinned snapshot has no chain for the agent (#1927)
+- [oh-my-opencode-slim#1932](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1932) fix(fallback): classify the claude-agent weekly subscription limit as failover-eligible (#1918)
+- [oh-my-opencode-slim#1931](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1931) fix(v2): admit a moved child session via its parent directory (#1915)
+
 **nightly-labs/openbot**
 
 - [openbot#2577](https://github.com/nightly-labs/openbot/pull/2577) Read inline triple-backtick code as text in Live Activities
 - [openbot#2576](https://github.com/nightly-labs/openbot/pull/2576) Keep emoji whole when a Live Activity cuts a code span
 - [openbot#2578](https://github.com/nightly-labs/openbot/pull/2578) Report an MCP sign-in that cannot start
-
-**alvinunreal/oh-my-opencode-slim**
-
-- [oh-my-opencode-slim#1932](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1932) fix(fallback): classify the claude-agent weekly subscription limit as failover-eligible (#1918)
-- [oh-my-opencode-slim#1931](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1931) fix(v2): admit a moved child session via its parent directory (#1915)
 
 **comet-ml/opik**
 
@@ -213,7 +214,6 @@ Merged upstream pull requests: **72** across **19** repositories.
 - [ag-ui-protocol/ag-ui#3241](https://github.com/ag-ui-protocol/ag-ui/pull/3241) fix(client): give interrupts without expiresAt a bounded default expiry
 - [ag-ui-protocol/ag-ui#3235](https://github.com/ag-ui-protocol/ag-ui/pull/3235) fix(mastra): stream frontend tool answers under the stored message's continuation id
 - [ai-for-developers/awesome-ai-coding-tools#1006](https://github.com/ai-for-developers/awesome-ai-coding-tools/pull/1006) Add OpenFlow to Testing and QA
-- [alvinunreal/oh-my-opencode-slim#1939](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1939) fix(fallback): fall back to live chains when a pinned snapshot has no chain for the agent (#1927)
 - [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
 - [anomalyco/opencode#57237](https://github.com/anomalyco/opencode/pull/57237) fix(cli): expose retryable ACP plugin activation readiness errors
 - [anomalyco/opencode#57236](https://github.com/anomalyco/opencode/pull/57236) fix(core): retry truncated compaction with less history
@@ -306,6 +306,7 @@ Merged upstream pull requests: **72** across **19** repositories.
 - [strands-agents/harness-sdk#5622](https://github.com/strands-agents/harness-sdk/pull/5622) fix(tools): warn when a tool parameter named agent has a non-Agent annotation
 - [strands-agents/harness-sdk#5504](https://github.com/strands-agents/harness-sdk/pull/5504) fix(models): port strict schema transform fixes from TS
 - [strands-agents/harness-sdk#5463](https://github.com/strands-agents/harness-sdk/pull/5463) fix(cli): mirror the 2026-10 model-catalog context windows in FALLBACK_CONTEXT_WINDOWS
+- [topoteretes/cognee#6797](https://github.com/topoteretes/cognee/pull/6797) fix(settings): drop retired models from settings model picker
 
 </details>
 
