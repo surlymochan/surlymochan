@@ -215,10 +215,10 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [ag-ui-protocol/ag-ui#3235](https://github.com/ag-ui-protocol/ag-ui/pull/3235) fix(mastra): stream frontend tool answers under the stored message's continuation id
 - [ai-for-developers/awesome-ai-coding-tools#1006](https://github.com/ai-for-developers/awesome-ai-coding-tools/pull/1006) Add OpenFlow to Testing and QA
 - [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
-- [anomalyco/opencode#57237](https://github.com/anomalyco/opencode/pull/57237) fix(cli): expose retryable ACP plugin activation readiness errors
-- [anomalyco/opencode#57236](https://github.com/anomalyco/opencode/pull/57236) fix(core): retry truncated compaction with less history
 - [ARUNAGIRINATHAN-K/ai-agent-registry#494](https://github.com/ARUNAGIRINATHAN-K/ai-agent-registry/pull/494) Add OpenFlow to Coding Agents
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
+- [BerriAI/litellm#53087](https://github.com/BerriAI/litellm/pull/53087) fix(decisions): pass image assets through for azure_ai decision models
+- [BerriAI/litellm#53073](https://github.com/BerriAI/litellm/pull/53073) fix(images): drop response_format for gpt-image image edits
 - [BerriAI/litellm#52537](https://github.com/BerriAI/litellm/pull/52537) fix(token_counter): do not upscale short side in resize_image_high_res
 - [BerriAI/litellm#52531](https://github.com/BerriAI/litellm/pull/52531) fix(fal_ai): raise BadRequestError for image edits with no input image
 - [BerriAI/litellm#52503](https://github.com/BerriAI/litellm/pull/52503) fix(langfuse): preserve prompt label and version in Langfuse logging
