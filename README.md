@@ -192,7 +192,7 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (113)</summary>
+<summary>In review (115)</summary>
 
 - [ag-ui-protocol/ag-ui#3418](https://github.com/ag-ui-protocol/ag-ui/pull/3418) fix(dotnet): preserve approval-wrapped tool calls in AsAGUIMessages
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
@@ -217,6 +217,8 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
 - [ARUNAGIRINATHAN-K/ai-agent-registry#494](https://github.com/ARUNAGIRINATHAN-K/ai-agent-registry/pull/494) Add OpenFlow to Coding Agents
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
+- [BerriAI/litellm#53546](https://github.com/BerriAI/litellm/pull/53546) fix(responses): preserve speed when converting chat usage to Responses usage
+- [BerriAI/litellm#53523](https://github.com/BerriAI/litellm/pull/53523) fix(gemini): sanitize legacy functions-list tool schemas like tools-list
 - [BerriAI/litellm#53087](https://github.com/BerriAI/litellm/pull/53087) fix(decisions): pass image assets through for azure_ai decision models
 - [BerriAI/litellm#53073](https://github.com/BerriAI/litellm/pull/53073) fix(images): drop response_format for gpt-image image edits
 - [BerriAI/litellm#52537](https://github.com/BerriAI/litellm/pull/52537) fix(token_counter): do not upscale short side in resize_image_high_res
