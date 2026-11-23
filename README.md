@@ -9,7 +9,7 @@
 
 **AI agents · Harness engineering · Reliable loops & graphs**
 
-<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-3%2C577-blue?logo=github" alt="Pull Requests: 3,577"> <img src="https://img.shields.io/badge/Commits-9%2C755-green?logo=github" alt="Commits: 9,755"></p>
+<p><img src="https://komarev.com/ghpvc/?username=surlymochan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views counter"> <img src="https://img.shields.io/badge/Pull_Requests-3%2C988-blue?logo=github" alt="Pull Requests: 3,988"> <img src="https://img.shields.io/badge/Commits-10%2C800-green?logo=github" alt="Commits: 10,800"></p>
 
 ## Start Here
 
@@ -69,10 +69,10 @@ Opened and merged PRs across my projects, nibiru-labs and upstream repositories,
 
 Recent merged contributions:
 
-- **[Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/688)** — listed OpenFlow in the Tools section.
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6255)** — declared the complete bun:sqlite Database in the sqlite-bun package.
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6222)** — named the serving account in the footer when the pin is blocked.
-- **[senpi](https://github.com/code-yeongyu/senpi/pull/6343)** — estimated context after a model switch instead of showing stale usage.
+- **[oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1939)** — fall back to live chains when a pinned snapshot has no chain for the agent.
+- **[oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1932)** — classify the claude-agent weekly subscription limit as failover-eligible.
+- **[oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim/pull/1931)** — admit a moved child session via its parent directory.
+- **[agno](https://github.com/agno-agi/agno/pull/11135)** — report MCPTools.connect() outcome and cleanup on CancelledError.
 
 Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent/pulls?q=is%3Apr+author%3Asurlymochan)**, **[OpenBot](https://github.com/nightly-labs/openbot/pulls?q=is%3Apr+author%3Asurlymochan)**, and **[strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk/pulls?q=is%3Apr+author%3Asurlymochan)**. Open pull requests are proposals, not merged features or maintainer roles.
 
