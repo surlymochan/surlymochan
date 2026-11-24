@@ -192,7 +192,7 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (118)</summary>
+<summary>In review (119)</summary>
 
 - [ag-ui-protocol/ag-ui#3418](https://github.com/ag-ui-protocol/ag-ui/pull/3418) fix(dotnet): preserve approval-wrapped tool calls in AsAGUIMessages
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
@@ -257,6 +257,7 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [code-yeongyu/oh-my-openagent#11077](https://github.com/code-yeongyu/oh-my-openagent/pull/11077) fix(omo-native): warn on broken catalog cache for proxy blocks and name keyed ids missing from the catalog
 - [code-yeongyu/oh-my-openagent#11075](https://github.com/code-yeongyu/oh-my-openagent/pull/11075) fix(installer-mirror): retry transient GitHub 5xx asset downloads with backoff
 - [code-yeongyu/oh-my-openagent#10955](https://github.com/code-yeongyu/oh-my-openagent/pull/10955) fix(config-migration): report legacy keys that config migrate does not import
+- [code-yeongyu/senpi#7412](https://github.com/code-yeongyu/senpi/pull/7412) fix(coding-agent): allow "/" in host session model ids
 - [code-yeongyu/senpi#6586](https://github.com/code-yeongyu/senpi/pull/6586) fix(scripts): read Claude model ids from catalog row id field
 - [code-yeongyu/senpi#6503](https://github.com/code-yeongyu/senpi/pull/6503) fix(ai): decode JSON-encoded tool arguments for Records, typeless unions and protocol-validated schemas
 - [code-yeongyu/senpi#6477](https://github.com/code-yeongyu/senpi/pull/6477) fix(terminal): clear the auto-reap age after a failed reap; keep a parked reap_failed
