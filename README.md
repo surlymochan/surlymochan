@@ -80,10 +80,11 @@ Currently contributing fixes to **[oh-my-openagent](https://github.com/code-yeon
 <summary>Contribution history & open pull requests</summary>
 
 <!-- CONTRIB:START -->
-Merged upstream pull requests: **73** across **19** repositories.
+Merged upstream pull requests: **74** across **19** repositories.
 
 **code-yeongyu/senpi**
 
+- [senpi#6122](https://github.com/code-yeongyu/senpi/pull/6122) fix(rpc): verify_api_key takes a region so a Kimi Code key is checked on its regional host
 - [senpi#6118](https://github.com/code-yeongyu/senpi/pull/6118) fix(coding-agent): read process start times in UTC so DST fall-back hours keep live holders (senpi#3067 L1)
 - [senpi#6343](https://github.com/code-yeongyu/senpi/pull/6343) fix(coding-agent): estimate context after a model switch instead of showing stale usage
 - [senpi#6333](https://github.com/code-yeongyu/senpi/pull/6333) fix(anthropic-subscription): read the prompt-cache lifetime from loaded settings files (senpi#2988)
@@ -192,7 +193,7 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (119)</summary>
+<summary>In review (122)</summary>
 
 - [ag-ui-protocol/ag-ui#3418](https://github.com/ag-ui-protocol/ag-ui/pull/3418) fix(dotnet): preserve approval-wrapped tool calls in AsAGUIMessages
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
@@ -269,7 +270,6 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [code-yeongyu/senpi#6205](https://github.com/code-yeongyu/senpi/pull/6205) fix(rpc): clear the close grace timer when dispose throws synchronously; give router registry fakes a closeGraceMs (#5929)
 - [code-yeongyu/senpi#6155](https://github.com/code-yeongyu/senpi/pull/6155) fix(ai): renew Cursor logins through the IDE refresh grant (#2919)
 - [code-yeongyu/senpi#6129](https://github.com/code-yeongyu/senpi/pull/6129) fix(agent): skip a session file that vanishes before its header is read; fail listDir when its directory is removed mid-call
-- [code-yeongyu/senpi#6122](https://github.com/code-yeongyu/senpi/pull/6122) fix(rpc): verify_api_key takes a region so a Kimi Code key is checked on its regional host
 - [code-yeongyu/senpi#6103](https://github.com/code-yeongyu/senpi/pull/6103) fix(fmt): resolve bun without a shell so spaced paths stay one argument; fix stale releasability comment (#5599)
 - [code-yeongyu/senpi#5914](https://github.com/code-yeongyu/senpi/pull/5914) test(coding-agent): skip grep search step when no grep engine is available
 - [code-yeongyu/senpi#5517](https://github.com/code-yeongyu/senpi/pull/5517) fix(hooks): skip the trust-state lock when the state file is absent
@@ -303,6 +303,10 @@ Merged upstream pull requests: **73** across **19** repositories.
 - [openclaw/openclaw#175933](https://github.com/openclaw/openclaw/pull/175933) docs(macos): explain the Bun local-network and Git prompts on first launch
 - [RoggeOhta/awesome-codex-cli#487](https://github.com/RoggeOhta/awesome-codex-cli/pull/487) Add openflow to Cross-Agent Tools
 - [rohitg00/awesome-claude-code-toolkit#874](https://github.com/rohitg00/awesome-claude-code-toolkit/pull/874) Add openflow to the Ecosystem table
+- [run-llama/llama_index#24513](https://github.com/run-llama/llama_index/pull/24513) fix(postgres): make metadata EQ filters type-strict and handle NaN
+- [run-llama/llama_index#24512](https://github.com/run-llama/llama_index/pull/24512) fix(postgres): compare 64-bit integer filters exactly instead of via float64
+- [run-llama/llama_index#24507](https://github.com/run-llama/llama_index/pull/24507) fix(postgres): escape LIKE wildcards in TEXT_MATCH filters
+- [run-llama/llama_index#24506](https://github.com/run-llama/llama_index/pull/24506) fix(postgres): guard numeric metadata filter cast with jsonb_typeof
 - [run-llama/llama_index#24317](https://github.com/run-llama/llama_index/pull/24317) fix(azure-openai): pass only azure_ad_token_provider to the SDK when configured
 - [run-llama/llama_index#24046](https://github.com/run-llama/llama_index/pull/24046) fix(core): pass callback_manager to response synthesizer in RetrieverQueryEngine.from_args
 - [run-llama/llama_index#24007](https://github.com/run-llama/llama_index/pull/24007) fix(core): return no nodes from SimplePropertyGraphStore.get for empty ids
