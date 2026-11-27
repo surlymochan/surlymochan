@@ -193,7 +193,7 @@ Merged upstream pull requests: **74** across **19** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (122)</summary>
+<summary>In review (121)</summary>
 
 - [ag-ui-protocol/ag-ui#3418](https://github.com/ag-ui-protocol/ag-ui/pull/3418) fix(dotnet): preserve approval-wrapped tool calls in AsAGUIMessages
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
@@ -215,7 +215,6 @@ Merged upstream pull requests: **74** across **19** repositories.
 - [ag-ui-protocol/ag-ui#3241](https://github.com/ag-ui-protocol/ag-ui/pull/3241) fix(client): give interrupts without expiresAt a bounded default expiry
 - [ag-ui-protocol/ag-ui#3235](https://github.com/ag-ui-protocol/ag-ui/pull/3235) fix(mastra): stream frontend tool answers under the stored message's continuation id
 - [ai-for-developers/awesome-ai-coding-tools#1006](https://github.com/ai-for-developers/awesome-ai-coding-tools/pull/1006) Add OpenFlow to Testing and QA
-- [anomalyco/opencode#59369](https://github.com/anomalyco/opencode/pull/59369) feat(tui): add an opt-out for the Kitty keyboard protocol
 - [ARUNAGIRINATHAN-K/ai-agent-registry#494](https://github.com/ARUNAGIRINATHAN-K/ai-agent-registry/pull/494) Add OpenFlow to Coding Agents
 - [benchflow-ai/awesome-evals#134](https://github.com/benchflow-ai/awesome-evals/pull/134) Add openflow to eval frameworks and harnesses
 - [BerriAI/litellm#53718](https://github.com/BerriAI/litellm/pull/53718) fix(vertex_ai): keep sibling properties in required-only anyOf branches
