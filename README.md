@@ -193,7 +193,7 @@ Merged upstream pull requests: **74** across **19** repositories.
 - [openclaw#177871](https://github.com/openclaw/openclaw/pull/177871) fix(ai): preserve compatible reasoning in follow-up requests
 
 <details>
-<summary>In review (121)</summary>
+<summary>In review (120)</summary>
 
 - [ag-ui-protocol/ag-ui#3418](https://github.com/ag-ui-protocol/ag-ui/pull/3418) fix(dotnet): preserve approval-wrapped tool calls in AsAGUIMessages
 - [ag-ui-protocol/ag-ui#3389](https://github.com/ag-ui-protocol/ag-ui/pull/3389) fix(langgraph): page get_checkpoint_before_message history walk (#3342)
@@ -245,7 +245,6 @@ Merged upstream pull requests: **74** across **19** repositories.
 - [code-yeongyu/oh-my-openagent#12623](https://github.com/code-yeongyu/oh-my-openagent/pull/12623) fix(no-raw-tls): list the omo-native omowright runtime in KNOWN_BUILT_RUNTIMES (#12242)
 - [code-yeongyu/oh-my-openagent#12616](https://github.com/code-yeongyu/oh-my-openagent/pull/12616) fix(utils): logger no longer captures globalThis timers at module load; close #12218 follow-ups
 - [code-yeongyu/oh-my-openagent#12604](https://github.com/code-yeongyu/oh-my-openagent/pull/12604) fix(senpi-task): heal rpc key dir before task host ensure (#12194)
-- [code-yeongyu/oh-my-openagent#12531](https://github.com/code-yeongyu/oh-my-openagent/pull/12531) fix(memory-core): pin the ps-lstart fallback to UTC so a live owner cannot read as dead under a different TZ
 - [code-yeongyu/oh-my-openagent#12111](https://github.com/code-yeongyu/oh-my-openagent/pull/12111) fix(memory): treat an ESRCH-dead pid without a recorded start identity as dead
 - [code-yeongyu/oh-my-openagent#12070](https://github.com/code-yeongyu/oh-my-openagent/pull/12070) fix(senpi-desktop-service): map unknown interventionWatch values to the unknown sentinel (#11731)
 - [code-yeongyu/oh-my-openagent#12069](https://github.com/code-yeongyu/oh-my-openagent/pull/12069) fix(senpi-task): guard timer unref in host heartbeat teardown (#11714)
